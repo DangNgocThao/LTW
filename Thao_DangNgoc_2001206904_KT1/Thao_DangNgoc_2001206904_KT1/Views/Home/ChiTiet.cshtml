@@ -1,0 +1,26 @@
+﻿@{
+    ViewBag.Title = "ChiTiet";
+    Layout = "~/Views/Shared/KhungLayoutPage.cshtml";
+}
+@using Thao_DangNgoc_2001206904_KT1.Models;
+@model List<sanpham>
+<div class="row">
+    <div class="col">
+        <h2>@Model[0].masp</h2>
+    </div>
+</div>
+<div class="row">
+    <div class="col-5">
+        <img src="/HinhAnh/@Model[0].hinh" />
+        <h2>Giá: @Model[0].gia</h2>
+    </div>
+    <div class="col">
+        <p><b>Mã sản phẩm: </b>@Model[0].masp</p>
+        <p><b>Chất liệu: </b>@Model[0].chatlieu</p>
+        <p><b>Nhóm Size: </b>@Model[0].size</p>
+        <p><b>Đặc tính: </b>@Model[0].dactinh</p>
+        <p><b>Xuất xứ: </b>@Model[0].xuatxu</p>
+        <a class="btn btn-warning">Mua</a>
+    </div>
+</div>
+

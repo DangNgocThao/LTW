@@ -1,0 +1,78 @@
+﻿@model IEnumerable<Tuan13.Models.tbl_HoaDon>
+
+@{
+    ViewBag.Title = "QLDH";
+    Layout = "~/Views/Shared/LayoutQuanLy.cshtml";
+    int i = 1;
+}
+
+<h2>QLDH</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table table-bordered text-center">
+    <tr>
+        <th>
+            STT
+        </th>
+        <th>
+            Ngày đặt hàng
+        </th>
+        <th>
+            Thông tin khách hàng
+        </th>
+        <th>
+            Ngày hẹn giao
+        </th>
+        <th>
+            Mã hóa đơn
+        </th>
+        <th>
+            Tình trạng
+        </th>
+        <th>
+            Duyệt giao hàng
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @(i++)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NgayHoaDon)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MaKH)<br />
+            @item.tbl_KhachHang.TenKH (@item.tbl_KhachHang.SoDienThoai)<br />
+            @item.tbl_KhachHang.DiaChi
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NgayGiao)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MaHoaDon)
+            @Html.Action("ThongKeHoaDon", "Home", new { id = item.MaHoaDon })
+        </td>
+        <td>
+            @if (item.NgayThanhToan!=null)
+            {
+                <input type="checkbox" checked disabled/><a>Đã giao</a>
+            }
+            else
+            {
+                <input type="checkbox" disabled/>
+            }
+        </td>
+        <td>
+            @if (item.NgayThanhToan==null)
+            {
+                <input type="checkbox"/>
+            }
+        </td>
+    </tr>
+}
+
+</table>

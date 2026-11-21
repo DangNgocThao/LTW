@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <ul class="nav">
+                <li>
+                    <a class="nav-link" href="/QLy/HienThiTheLoai">
+                        Danh mục thể loại
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link" href="/QLy/HienThiSanPham">
+                        Danh mục sản phẩm
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link" href="/QLy/SanPhamTheoLoai">
+                        Sản phẩm theo loại
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link" href="/QLy/ThemTheLoai">
+                        Thêm thể loại
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+</body>
+</html>

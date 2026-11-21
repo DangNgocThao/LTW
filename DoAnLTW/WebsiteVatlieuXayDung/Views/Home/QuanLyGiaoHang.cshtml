@@ -1,0 +1,77 @@
+﻿
+@{
+    ViewBag.Title = "QuanLyGiaoHang";
+    Layout = "~/Views/Shared/LayoutWeb.cshtml";
+}
+@model List<WebsiteVatlieuXayDung.Models.GIAOHANG>
+<div class="container">
+    <div class="row mt-4 mb-4">
+        <form class="w-100" action="/Home/LuuTinhTrang" method="post">
+            <div class="col">
+                <table class="table">
+                    <tr class="bg-success">
+                        <th>
+                            Ngày lập
+                        </th>
+                        <th>
+                            Tên khách hàng
+                        </th>
+                        <th>
+                            Mã hóa đơn
+                        </th>
+                        <th>
+                            Thành tiền (VNĐ)
+                        </th>
+                        <th>
+                            Địa chỉ
+                        </th>
+                        <th>
+                            Tình trạng
+                        </th>
+                    </tr>
+                    @foreach (var item in Model)
+                    {
+                        <tr class="bg-light">
+                            <td>
+                                @item.HOADONKH.NGAY
+                            </td>
+                            <td>
+                                @item.HOADONKH.NGUOIDUNG.TENKH
+                            </td>
+                            <td>
+                                @item.HOADONKH.MAHD
+                            </td>
+                            <td>
+                                @item.HOADONKH.TONGTIEN
+                            </td>
+                            <td>
+                                @item.DIACHIGIAOHANG
+                            </td>
+                            <td>
+                                @if (item.TINHTRANG == "Đã giao")
+                                {
+                                    <select disabled class="form-control">
+                                        <option value="@item.TINHTRANG">@item.TINHTRANG</option>
+                                        <option value="Chưa giao">Chưa giao</option>
+                                    </select>
+                                }
+                                else
+                                {
+                                    <select class="form-control" name="@item.MAHD">
+                                        <option value="@item.TINHTRANG">@item.TINHTRANG</option>
+                                        <option value="Đã giao">Đã giao</option>
+                                    </select>
+                                }
+                            </td>
+                        </tr>
+                    }
+                </table>
+                <div class="text-center">
+                    <button type="submit" name="btn" class="btn-success btn">Lưu</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+

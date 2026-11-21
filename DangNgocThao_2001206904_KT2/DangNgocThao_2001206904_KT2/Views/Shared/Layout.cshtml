@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    @using DangNgocThao_2001206904_KT2.Models;\
+    @{
+        KhachHang kh=(KhachHang)Session["kh"];
+    }
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-3">
+                <a href="/Home/Index"><img class="w-75" src="~/Hinhanh/img_logo.jpg" /></a>
+            </div>
+            <div class="col-6">
+                <ul class="nav navbar text-success">
+                    <li class="nav-item"><a href="/Home/Index" class="nav-link">Trang chủ</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Về chúng tôi</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Liên hệ</a></li>
+                    <li class="nav-item"><a href="/Home/ThemHang" class="nav-link">Thêm hàng</a></li>
+                    @if (Session["kh"] != null)
+                    {
+                        <li class="nav-item"><a href="/Home/lichSuGiaoDich/@kh.MaKH" class="nav-link">lịch Sử Giao Dịch</a></li>
+                    }
+                </ul>
+            </div>
+            <div class="col-1">
+                <img src="~/Hinhanh/img_tel.png" />
+            </div>
+            <div class="col-2">
+                <p><b class="text-danger">Hotline: <u class="text-primary">0911.08.33.09</u></b></p>
+                <p><b class="text-danger">Tư vấn: (028) 3838 0938</b></p>
+            </div>
+        </div>
+        <div class="row bg-success">
+            <div class="col-9">
+                <form action="/Home/timKiem" method="post" class="form-inline">
+                    <input type="text" name="tim" class="form-control"/>
+                    <input class="btn btn-warning text-light form-control" type="submit" name="name" value="Tìm kiếm" />
+                </form>
+            </div>
+            <div class="col-1">
+                <a href="/Home/XemGioHang"><img class="w-50" src="~/Hinhanh/ing_gio.gif" /></a>
+            </div>
+            <div class="col-2">
+                <a href="/Home/dangNhap"><img class="w-100" src="~/Hinhanh/img_taikhoan.png" /></a>                
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3">
+                @Html.Action("DanhMucTour","Home")
+            </div>
+            <div class="col-9">
+                @RenderBody()
+            </div>
+        </div>
+        <div class="row bg-success">
+            <div class="col">
+                <ul class="nav navbar">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <img src="~/Hinhanh/img_chatluong.jpg" />CHẤT LƯỢNG
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <img src="~/Hinhanh/img_uytin.jpg" />UU TÍN
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <img src="~/Hinhanh/img_giatot.jpg" />GIÁ TỐT
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <img src="~/Hinhanh/img_dedang.png" />DỄ DÀNG
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-center">
+                bản quyền của trung tâm kế hoạch
+            </div>
+        </div>
+    </div>
+    <script src="~/bootstrap/js/jquery-3.3.1.min.js"></script>
+    <script src="~/bootstrap/js/bootstrap.js"></script>
+</body>
+</html>

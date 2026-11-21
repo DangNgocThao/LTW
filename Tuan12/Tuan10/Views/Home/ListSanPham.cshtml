@@ -1,0 +1,26 @@
+﻿@{
+    ViewBag.Title = "ListSanPham";
+    Layout = "~/Views/Shared/LayoutQuanLy.cshtml";
+}
+@using Tuan10.Models;
+@model List<tbl_SanPham>
+<div class="text-center">
+    <h2 class="text-center">Danh sách sản phẩm</h2>
+        <div class="row"> 
+            @foreach (var t in Model)
+            {
+                <div class="col-3 border-1">
+                    <div class="card card-group text-center border-0" style="height:300px;width:200px">
+                        <div class="text-center">
+                            <img /src="/hinh/@t.HinhAnh" class="ml-2" width="180" height="180">
+                        </div>
+                        <div class="card-body">
+                                <a class="card-tittle">@t.TenSP</a><br />
+                                <a class="">@t.DonGia VNĐ</a>
+                                <a href="/Home/ThemMatHang/@t.MaSanPham" class=""><img src="~/hinh/ChonMua.jpg" width="110" height="30"/></a>
+                        </div>
+                    </div>
+                </div> 
+            }
+        </div>
+</div>

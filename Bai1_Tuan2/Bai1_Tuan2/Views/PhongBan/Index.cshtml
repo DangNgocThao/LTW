@@ -1,0 +1,14 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+@using Bai1_Tuan2.Models;
+@model List<PhongBan>
+
+<h2 style="background-color:pink;color:purple">Danh sách các phòng ban</h2>
+<ul>
+    @foreach (var item in @Model)
+    {
+        <li>@item.Ten (@item.Ma)</li>
+    }
+</ul>

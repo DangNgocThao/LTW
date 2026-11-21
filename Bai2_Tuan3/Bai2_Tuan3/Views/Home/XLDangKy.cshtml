@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "XLDangKy";
+}
+@using Bai2_Tuan3.Models;
+@model user
+<h2>ARE YOU READY YOUR INFOMATION IS CORRECT</h2>
+<P>Your FullName is: @Model.txtName</P>
+<P>Your ID Student is: @Model.txtID</P>
+<P>Your Email is: @Model.txtName</P>
+<p>Your Photo: <img src="/Images/@Model.hinh"/></p>
+<p>Your Note is: @Model.txtGhiChu</p>
+<p>We are known by: @Model.ckWeb, @Model.ckTV, @Model.ckPP</p>
+<p>Choose work time: @Model.rdBuoihoc</p>
+<p>Select an Course: @Model.course</p>
+<p><b>If your information is incorect. Please go back <a href="/Home/DangKy">INDEX PAGE</a>;</b></p>

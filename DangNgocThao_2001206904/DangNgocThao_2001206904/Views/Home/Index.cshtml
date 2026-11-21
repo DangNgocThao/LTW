@@ -1,0 +1,40 @@
+﻿@using DangNgocThao_2001206904.Models;
+@model List<NongSan>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+
+<div class="row bg-light">
+    @foreach (var item in Model)
+    {
+
+
+<div class="col-3 pt-3">
+            <div class="card">
+                @{  if (item.MienPhiGiaoHang == true)
+                    {
+                        <a class="text-warning text-right">(Miễn phí ship)</a>
+                    }
+                    else
+                    {
+                        <br />
+                    }
+                 }
+                <a href="/Home/ChiTietSanPham/@item.idSP"><img class="w-100 card-img-top" src="/Hinhanh/@item.HinhDaiDien" /></a>
+                <div class="card-body">
+                    <p class="card-title text-center">
+                        @item.TenSP
+                    </p>
+                    <p class="text-center">
+                        <a class="text-warning">@item.DonGia VND</a>
+                    </p>
+                    <p class="text-center">
+                        <a href="/Home/ChonMua/@item.idSP" class="btn btn-dark">Mua hàng</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    }
+</div>

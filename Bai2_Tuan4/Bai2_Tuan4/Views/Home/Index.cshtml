@@ -1,0 +1,25 @@
+﻿@{
+    ViewBag.Title = "Index";
+    <link href="~/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+}
+@using Bai2_Tuan4.Models;
+@model List<Employee>
+<h2 class="text-primary text-center">Bảng Employee</h2>
+<table class="table table-bordered">
+    <tr>
+        <td>ID</td>
+        <td>Name</td>
+        <td>Gioi tinh</td>
+        <td>City</td>
+    </tr>
+    @foreach (var item in @Model)
+    {
+        <tr>
+        <td>@item.ma</td>
+        <td>@item.ten</td>
+        <td>@item.gioitinh</td>
+        <td>@item.tinh</td>
+    </tr>
+    }
+</table>
+<p>Tổng số lượng nhân viên: @ViewBag.dem</p>

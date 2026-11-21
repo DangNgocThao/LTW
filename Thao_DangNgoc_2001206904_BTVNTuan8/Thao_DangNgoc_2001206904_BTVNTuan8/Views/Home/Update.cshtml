@@ -1,0 +1,41 @@
+﻿@model Thao_DangNgoc_2001206904_BTVNTuan8.Models.tbl_Deparment
+
+@{
+    ViewBag.Title = "Update";
+}
+<link href="~/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+<div class="container-fluid">
+    @using (Html.BeginForm("Update", "Home", FormMethod.Post, Model.DeptId))
+    {
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true)
+
+        <fieldset>
+            <legend class="text-primary">CHỈNH SỬA THÔNG TIN PHÒNG BAN</legend>
+
+            <div class="editor-label">
+                @Html.LabelFor(model => model.DeptId)
+            </div>
+            <div class="editor-field">
+                <input type="number" name="DeptId" disabled/>
+            </div>
+
+            <div class="editor-label">
+                @Html.LabelFor(model => model.Name)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.Name)
+                @Html.ValidationMessageFor(model => model.Name)
+            </div>
+
+            <p>
+                <input type="submit" value="UPDATE" class="btn btn-primary text-white" />
+            </p>
+        </fieldset>
+    }
+
+    <div>
+        @Html.ActionLink("Back to List", "DanhMucPhongBan")
+    </div>
+</div>

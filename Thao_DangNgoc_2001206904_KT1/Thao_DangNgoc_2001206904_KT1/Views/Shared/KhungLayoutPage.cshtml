@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row pt-2" style="background-image: url(/HinhAnh/img_background.png)">
+            <div class="col-4 pt-2">
+                <a class="mt-5 text-white">Hotline <b>0903.625.757</b> | Email <b>Info@veco.com.vn</b></a>
+            </div>
+            <div class="col-6">
+            </div>
+            <div class="col-1">
+                <img src="~/HinhAnh/img_giohang.jpg" />
+                <a class="ml-2 text-success">Giỏ Hàng</a>
+                <p class="ml-5 text-white font-weight-bold">sản phẩm</p>
+            </div>
+            <div>
+                <img src="~/HinhAnh/img_login.jpg" />
+                <a class="ml-2 text-success">Đăng nhập</a>
+            </div>
+        </div>
+        <div class="row border-bottom">
+            <div class="col-4">
+                <img class="w-50" src="~/HinhAnh/img_logo.jpg" />
+            </div>
+            <div class="col-4 pt-3">
+                <ul class="nav navbar">
+                    <li class="nav-item text-success font-weight-bold"><a>Trang chủ</a></li>
+                    <li class="nav-item text-success font-weight-bold"><a>Tìm kiếm</a></li>
+                    <li class="nav-item text-success font-weight-bold"><a>Liên hệ</a></li>
+                </ul>
+            </div>
+            <div class="col pt-3 text-center">
+                <input type="text" />
+                <img src="~/HinhAnh/img_search.jpg" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3">
+                <ul class="nav nav-link">
+                    <li class="bg-success nav-item text-white  border-left border-right border-top"><h3>DANH MỤC SẢN PHẨM</h3></li>
+                    <li class="nav-item border-bottom p-1 border-left border-right pl-3 font-weight-bold">
+                        <a href="#">ĐỒ SỌT</a>
+                    </li>
+                    <li class="nav-item border-bottom p-1 border-left border-right pl-3 font-weight-bold">
+                        <a href="#">ĐỒ LỬNG THỤN</a>
+                    </li>
+                    <li class="nav-item border-bottom p-1 border-left border-right pl-3 font-weight-bold">
+                        <a href="#">ĐỒ lỬNG KAO</a>
+                    </li>
+                    <li class="nav-item border-bottom p-1 border-left border-right pl-3 font-weight-bold">
+                        <a href="#">ĐỒ lỬNG JLANS</a>
+                    </li>
+                    <li class="nav-item border-bottom p-1 border-left border-right pl-3 font-weight-bold">
+                        <a href="#">ĐỒ DÀI</a>
+                    </li>
+                    <li class="nav-item border-bottom p-1 border-left border-right pl-3 font-weight-bold">
+                        <a href="#">ÁO KHOÁC</a>
+                    </li>
+                    <li class="nav-item border-bottom p-1 border-left border-right pl-3 font-weight-bold">
+                        <a href="#">ÁO LÊ</a>
+                    </li>
+                    <li class="nav-item border-bottom p-1 border-left border-right pl-3 font-weight-bold">
+                        <a href="#">QUẦN LÊ</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-9">
+                @RenderBody()
+            </div>        
+        </div>
+        <div class="row border-top border-success">
+            <div class="col">
+                <ul class="nav navbar">
+                    <li class="nav-item">
+                        <a href="#" class="text-success font-weight-bold">THÔNG TIN LIÊN HỆ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="text-success font-weight-bold">GIẢI ĐÁP THẮC MẮC</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="text-success font-weight-bold">ĐĂNG KÝ NHẬN EMAIL</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="text-success font-weight-bold">FACEBOOK</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row" style="background-image: url(/HinhAnh/img_background.png)">
+            <div class="col text-center p-2">
+                <a class="text-white">c Copyright 2018<b>VECO.COM.VN</b></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,326 @@
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\bin\WebsiteVatlieuXayDung.dll.config
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\bin\WebsiteVatlieuXayDung.dll
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\bin\WebsiteVatlieuXayDung.pdb
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\csc.exe
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\csc.exe.config
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\csc.rsp
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\csi.exe
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\csi.exe.config
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\csi.rsp
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\System.Collections.Immutable.dll
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\System.Reflection.Metadata.dll
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\vbc.exe
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\vbc.exe.config
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\vbc.rsp
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\VBCSCompiler.exe
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\VBCSCompiler.exe.config
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\bin\Antlr3.Runtime.dll
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\bin\Microsoft.Web.Infrastructure.dll
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\bin\Newtonsoft.Json.dll
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Net.Http.Formatting.dll
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.Helpers.dll
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.Http.dll
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.Http.WebHost.dll
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.Mvc.dll
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.Optimization.dll
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.Razor.dll
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.WebPages.Deployment.dll
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.WebPages.dll
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.WebPages.Razor.dll
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\bin\WebGrease.dll
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.Helpers.xml
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.Mvc.xml
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.Optimization.xml
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.Razor.xml
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.WebPages.xml
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.WebPages.Deployment.xml
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.WebPages.Razor.xml
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\bin\Antlr3.Runtime.pdb
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Net.Http.Formatting.xml
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.Http.xml
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.Http.WebHost.xml
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\obj\Debug\WebsiteVatlieuXayDung.csproj.AssemblyReference.cache
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\obj\Debug\WebsiteVatlieuXayDung.csproj.CoreCompileInputs.cache
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\obj\Debug\WebsiteVatlieuXayDung.csproj.CopyComplete
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\obj\Debug\WebsiteVatlieuXayDung.dll
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\obj\Debug\WebsiteVatlieuXayDung.pdb
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\System.Buffers.dll
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\System.Memory.dll
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\System.Numerics.Vectors.dll
+D:\Backup\LT\LTW\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\bin\WebsiteVatlieuXayDung.dll.config
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\bin\WebsiteVatlieuXayDung.dll
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\bin\WebsiteVatlieuXayDung.pdb
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\csc.exe
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\csc.exe.config
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\csc.rsp
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\csi.exe
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\csi.exe.config
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\csi.rsp
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\System.Buffers.dll
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\System.Collections.Immutable.dll
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\System.Memory.dll
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\System.Numerics.Vectors.dll
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\System.Reflection.Metadata.dll
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\vbc.exe
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\vbc.exe.config
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\vbc.rsp
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\VBCSCompiler.exe
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\VBCSCompiler.exe.config
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\bin\Antlr3.Runtime.dll
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\bin\Microsoft.Web.Infrastructure.dll
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\bin\Newtonsoft.Json.dll
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Net.Http.Formatting.dll
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.Helpers.dll
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.Http.dll
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.Http.WebHost.dll
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.Mvc.dll
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.Optimization.dll
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.Razor.dll
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.WebPages.Deployment.dll
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.WebPages.dll
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.WebPages.Razor.dll
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\bin\WebGrease.dll
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\bin\Newtonsoft.Json.xml
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.Helpers.xml
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.Mvc.xml
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.Optimization.xml
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.Razor.xml
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.WebPages.xml
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.WebPages.Deployment.xml
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.WebPages.Razor.xml
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\bin\Antlr3.Runtime.pdb
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Net.Http.Formatting.xml
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.Http.xml
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.Http.WebHost.xml
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\obj\Debug\WebsiteVatlieuXayDung.csproj.AssemblyReference.cache
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\obj\Debug\WebsiteVatlieuXayDung.csproj.CoreCompileInputs.cache
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\obj\Debug\WebsiteVatlieuXayDung.csproj.CopyComplete
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\obj\Debug\WebsiteVatlieuXayDung.dll
+E:\Lập Trình Web\KT1\DoAnLTW\WebsiteVatlieuXayDung\obj\Debug\WebsiteVatlieuXayDung.pdb
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\obj\Debug\WebsiteVatlieuXayDung.csproj.AssemblyReference.cache
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\obj\Debug\WebsiteVatlieuXayDung.csproj.CoreCompileInputs.cache
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\obj\Debug\WebsiteVatlieuXayDung.dll
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\obj\Debug\WebsiteVatlieuXayDung.pdb
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\bin\WebsiteVatlieuXayDung.dll.config
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\bin\WebsiteVatlieuXayDung.dll
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\bin\WebsiteVatlieuXayDung.pdb
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\csc.exe
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\csc.exe.config
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\csc.rsp
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\csi.exe
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\csi.exe.config
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\csi.rsp
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\System.Buffers.dll
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\System.Memory.dll
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\vbc.exe
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\vbc.exe.config
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\vbc.rsp
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\VBCSCompiler.exe
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\bin\Antlr3.Runtime.dll
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\bin\Newtonsoft.Json.dll
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Net.Http.Formatting.dll
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.Helpers.dll
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.Http.dll
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.Http.WebHost.dll
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.Mvc.dll
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.Optimization.dll
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.Razor.dll
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.WebPages.Deployment.dll
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.WebPages.dll
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.WebPages.Razor.dll
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\bin\WebGrease.dll
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.Helpers.xml
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.Mvc.xml
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.Optimization.xml
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.Razor.xml
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.WebPages.xml
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.WebPages.Deployment.xml
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.WebPages.Razor.xml
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\bin\Antlr3.Runtime.pdb
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Net.Http.Formatting.xml
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.Http.xml
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.Http.WebHost.xml
+C:\Users\DNT\Downloads\DoAnLTW\WebsiteVatlieuXayDung\obj\Debug\WebsiteVatlieuXayDung.csproj.CopyComplete
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\bin\WebsiteVatlieuXayDung.dll.config
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\bin\WebsiteVatlieuXayDung.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\bin\WebsiteVatlieuXayDung.pdb
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\csc.exe
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\csc.exe.config
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\csc.rsp
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\csi.exe
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\csi.exe.config
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\csi.rsp
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\System.Buffers.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\System.Memory.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\vbc.exe
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\vbc.exe.config
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\vbc.rsp
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\VBCSCompiler.exe
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\bin\Antlr3.Runtime.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\bin\Newtonsoft.Json.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Net.Http.Formatting.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.Helpers.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.Http.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.Http.WebHost.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.Mvc.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.Optimization.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.Razor.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.WebPages.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.WebPages.Razor.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\bin\WebGrease.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.Helpers.xml
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.Mvc.xml
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.Optimization.xml
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.Razor.xml
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.WebPages.xml
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.WebPages.Razor.xml
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\bin\Antlr3.Runtime.pdb
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Net.Http.Formatting.xml
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.Http.xml
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.Http.WebHost.xml
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\obj\Debug\WebsiteVatlieuXayDung.csproj.AssemblyReference.cache
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\obj\Debug\WebsiteVatlieuXayDung.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\obj\Debug\WebsiteVatlieuXayDung.csproj.CopyComplete
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\obj\Debug\WebsiteVatlieuXayDung.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW (1)\DoAnLTW\WebsiteVatlieuXayDung\obj\Debug\WebsiteVatlieuXayDung.pdb
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\bin\WebsiteVatlieuXayDung.dll.config
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\bin\WebsiteVatlieuXayDung.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\bin\WebsiteVatlieuXayDung.pdb
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\csc.exe
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\csc.exe.config
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\csc.rsp
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\csi.exe
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\csi.exe.config
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\csi.rsp
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\System.Buffers.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\System.Memory.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\vbc.exe
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\vbc.exe.config
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\vbc.rsp
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\VBCSCompiler.exe
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\bin\Antlr3.Runtime.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\bin\Newtonsoft.Json.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Net.Http.Formatting.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.Helpers.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.Http.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.Http.WebHost.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.Mvc.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.Optimization.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.Razor.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.WebPages.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.WebPages.Razor.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\bin\WebGrease.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.Helpers.xml
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.Mvc.xml
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.Optimization.xml
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.Razor.xml
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.WebPages.xml
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.WebPages.Razor.xml
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\bin\Antlr3.Runtime.pdb
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Net.Http.Formatting.xml
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.Http.xml
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\bin\System.Web.Http.WebHost.xml
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\obj\Debug\WebsiteVatlieuXayDung.csproj.AssemblyReference.cache
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\obj\Debug\WebsiteVatlieuXayDung.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\obj\Debug\WebsiteVatlieuXayDung.csproj.CopyComplete
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\obj\Debug\WebsiteVatlieuXayDung.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnLTW v3\DoAnLTW\WebsiteVatlieuXayDung\obj\Debug\WebsiteVatlieuXayDung.pdb

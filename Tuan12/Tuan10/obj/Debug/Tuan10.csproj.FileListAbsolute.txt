@@ -1,0 +1,184 @@
+E:\LUUDULIEUSINHVIEN\LeThanhNam\Tuan10\Tuan10\bin\Tuan10.dll.config
+E:\LUUDULIEUSINHVIEN\LeThanhNam\Tuan10\Tuan10\bin\Tuan10.dll
+E:\LUUDULIEUSINHVIEN\LeThanhNam\Tuan10\Tuan10\bin\Tuan10.pdb
+E:\LUUDULIEUSINHVIEN\LeThanhNam\Tuan10\Tuan10\bin\Antlr3.Runtime.dll
+E:\LUUDULIEUSINHVIEN\LeThanhNam\Tuan10\Tuan10\bin\EntityFramework.dll
+E:\LUUDULIEUSINHVIEN\LeThanhNam\Tuan10\Tuan10\bin\Microsoft.Web.Infrastructure.dll
+E:\LUUDULIEUSINHVIEN\LeThanhNam\Tuan10\Tuan10\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:\LUUDULIEUSINHVIEN\LeThanhNam\Tuan10\Tuan10\bin\Newtonsoft.Json.dll
+E:\LUUDULIEUSINHVIEN\LeThanhNam\Tuan10\Tuan10\bin\System.Web.Mvc.dll
+E:\LUUDULIEUSINHVIEN\LeThanhNam\Tuan10\Tuan10\bin\System.Web.Optimization.dll
+E:\LUUDULIEUSINHVIEN\LeThanhNam\Tuan10\Tuan10\bin\System.Web.Providers.dll
+E:\LUUDULIEUSINHVIEN\LeThanhNam\Tuan10\Tuan10\bin\System.Web.Razor.dll
+E:\LUUDULIEUSINHVIEN\LeThanhNam\Tuan10\Tuan10\bin\System.Web.WebPages.Deployment.dll
+E:\LUUDULIEUSINHVIEN\LeThanhNam\Tuan10\Tuan10\bin\System.Web.WebPages.dll
+E:\LUUDULIEUSINHVIEN\LeThanhNam\Tuan10\Tuan10\bin\System.Web.WebPages.Razor.dll
+E:\LUUDULIEUSINHVIEN\LeThanhNam\Tuan10\Tuan10\bin\WebGrease.dll
+E:\LUUDULIEUSINHVIEN\LeThanhNam\Tuan10\Tuan10\bin\EntityFramework.xml
+E:\LUUDULIEUSINHVIEN\LeThanhNam\Tuan10\Tuan10\bin\Newtonsoft.Json.xml
+E:\LUUDULIEUSINHVIEN\LeThanhNam\Tuan10\Tuan10\bin\System.Web.Mvc.xml
+E:\LUUDULIEUSINHVIEN\LeThanhNam\Tuan10\Tuan10\bin\System.Web.Razor.xml
+E:\LUUDULIEUSINHVIEN\LeThanhNam\Tuan10\Tuan10\bin\System.Web.WebPages.xml
+E:\LUUDULIEUSINHVIEN\LeThanhNam\Tuan10\Tuan10\bin\System.Web.WebPages.Deployment.xml
+E:\LUUDULIEUSINHVIEN\LeThanhNam\Tuan10\Tuan10\bin\System.Web.WebPages.Razor.xml
+E:\LUUDULIEUSINHVIEN\LeThanhNam\Tuan10\Tuan10\obj\Debug\Tuan10.csprojResolveAssemblyReference.cache
+E:\LUUDULIEUSINHVIEN\LeThanhNam\Tuan10\Tuan10\obj\Debug\Tuan10.dll
+E:\LUUDULIEUSINHVIEN\LeThanhNam\Tuan10\Tuan10\obj\Debug\Tuan10.pdb
+E:\LeThanhNam\Tuan10\Tuan10\bin\Tuan10.dll
+E:\LeThanhNam\Tuan10\Tuan10\bin\Tuan10.pdb
+E:\LeThanhNam\Tuan10\Tuan10\bin\Antlr3.Runtime.dll
+E:\LeThanhNam\Tuan10\Tuan10\bin\EntityFramework.dll
+E:\LeThanhNam\Tuan10\Tuan10\bin\Microsoft.Web.Infrastructure.dll
+E:\LeThanhNam\Tuan10\Tuan10\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:\LeThanhNam\Tuan10\Tuan10\bin\Newtonsoft.Json.dll
+E:\LeThanhNam\Tuan10\Tuan10\bin\System.Net.Http.Formatting.dll
+E:\LeThanhNam\Tuan10\Tuan10\bin\System.Web.Http.dll
+E:\LeThanhNam\Tuan10\Tuan10\bin\System.Web.Http.WebHost.dll
+E:\LeThanhNam\Tuan10\Tuan10\bin\System.Web.Mvc.dll
+E:\LeThanhNam\Tuan10\Tuan10\bin\System.Web.Optimization.dll
+E:\LeThanhNam\Tuan10\Tuan10\bin\System.Web.Providers.dll
+E:\LeThanhNam\Tuan10\Tuan10\bin\System.Web.Razor.dll
+E:\LeThanhNam\Tuan10\Tuan10\bin\System.Web.WebPages.Deployment.dll
+E:\LeThanhNam\Tuan10\Tuan10\bin\System.Web.WebPages.dll
+E:\LeThanhNam\Tuan10\Tuan10\bin\System.Web.WebPages.Razor.dll
+E:\LeThanhNam\Tuan10\Tuan10\bin\WebGrease.dll
+E:\LeThanhNam\Tuan10\Tuan10\bin\EntityFramework.xml
+E:\LeThanhNam\Tuan10\Tuan10\bin\Newtonsoft.Json.xml
+E:\LeThanhNam\Tuan10\Tuan10\bin\System.Net.Http.Formatting.xml
+E:\LeThanhNam\Tuan10\Tuan10\bin\System.Web.Http.xml
+E:\LeThanhNam\Tuan10\Tuan10\bin\System.Web.Http.WebHost.xml
+E:\LeThanhNam\Tuan10\Tuan10\bin\System.Web.Mvc.xml
+E:\LeThanhNam\Tuan10\Tuan10\bin\System.Web.Razor.xml
+E:\LeThanhNam\Tuan10\Tuan10\bin\System.Web.WebPages.xml
+E:\LeThanhNam\Tuan10\Tuan10\bin\System.Web.WebPages.Deployment.xml
+E:\LeThanhNam\Tuan10\Tuan10\bin\System.Web.WebPages.Razor.xml
+E:\LeThanhNam\Tuan10\Tuan10\obj\Debug\Tuan10.csprojResolveAssemblyReference.cache
+E:\LeThanhNam\Tuan10\Tuan10\obj\Debug\Tuan10.dll
+E:\LeThanhNam\Tuan10\Tuan10\obj\Debug\Tuan10.pdb
+D:\Học Tập\Lập Trình Web\Code\Tuan11\Tuan10\bin\Tuan10.dll.config
+D:\Học Tập\Lập Trình Web\Code\Tuan11\Tuan10\bin\Tuan10.dll
+D:\Học Tập\Lập Trình Web\Code\Tuan11\Tuan10\bin\Tuan10.pdb
+D:\Học Tập\Lập Trình Web\Code\Tuan11\Tuan10\bin\Antlr3.Runtime.dll
+D:\Học Tập\Lập Trình Web\Code\Tuan11\Tuan10\bin\EntityFramework.dll
+D:\Học Tập\Lập Trình Web\Code\Tuan11\Tuan10\bin\Microsoft.Web.Infrastructure.dll
+D:\Học Tập\Lập Trình Web\Code\Tuan11\Tuan10\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\Học Tập\Lập Trình Web\Code\Tuan11\Tuan10\bin\Newtonsoft.Json.dll
+D:\Học Tập\Lập Trình Web\Code\Tuan11\Tuan10\bin\System.Net.Http.Formatting.dll
+D:\Học Tập\Lập Trình Web\Code\Tuan11\Tuan10\bin\System.Web.Http.dll
+D:\Học Tập\Lập Trình Web\Code\Tuan11\Tuan10\bin\System.Web.Http.WebHost.dll
+D:\Học Tập\Lập Trình Web\Code\Tuan11\Tuan10\bin\System.Web.Mvc.dll
+D:\Học Tập\Lập Trình Web\Code\Tuan11\Tuan10\bin\System.Web.Optimization.dll
+D:\Học Tập\Lập Trình Web\Code\Tuan11\Tuan10\bin\System.Web.Providers.dll
+D:\Học Tập\Lập Trình Web\Code\Tuan11\Tuan10\bin\System.Web.Razor.dll
+D:\Học Tập\Lập Trình Web\Code\Tuan11\Tuan10\bin\System.Web.WebPages.Deployment.dll
+D:\Học Tập\Lập Trình Web\Code\Tuan11\Tuan10\bin\System.Web.WebPages.dll
+D:\Học Tập\Lập Trình Web\Code\Tuan11\Tuan10\bin\System.Web.WebPages.Razor.dll
+D:\Học Tập\Lập Trình Web\Code\Tuan11\Tuan10\bin\WebGrease.dll
+D:\Học Tập\Lập Trình Web\Code\Tuan11\Tuan10\bin\EntityFramework.xml
+D:\Học Tập\Lập Trình Web\Code\Tuan11\Tuan10\bin\Newtonsoft.Json.xml
+D:\Học Tập\Lập Trình Web\Code\Tuan11\Tuan10\bin\System.Net.Http.Formatting.xml
+D:\Học Tập\Lập Trình Web\Code\Tuan11\Tuan10\bin\System.Web.Http.xml
+D:\Học Tập\Lập Trình Web\Code\Tuan11\Tuan10\bin\System.Web.Http.WebHost.xml
+D:\Học Tập\Lập Trình Web\Code\Tuan11\Tuan10\bin\System.Web.Mvc.xml
+D:\Học Tập\Lập Trình Web\Code\Tuan11\Tuan10\bin\System.Web.Razor.xml
+D:\Học Tập\Lập Trình Web\Code\Tuan11\Tuan10\bin\System.Web.WebPages.xml
+D:\Học Tập\Lập Trình Web\Code\Tuan11\Tuan10\bin\System.Web.WebPages.Deployment.xml
+D:\Học Tập\Lập Trình Web\Code\Tuan11\Tuan10\bin\System.Web.WebPages.Razor.xml
+D:\Học Tập\Lập Trình Web\Code\Tuan11\Tuan10\obj\Debug\Tuan10.csprojAssemblyReference.cache
+D:\Học Tập\Lập Trình Web\Code\Tuan11\Tuan10\obj\Debug\Tuan10.csproj.CoreCompileInputs.cache
+D:\Học Tập\Lập Trình Web\Code\Tuan11\Tuan10\obj\Debug\Tuan10.csproj.CopyComplete
+D:\Học Tập\Lập Trình Web\Code\Tuan11\Tuan10\obj\Debug\Tuan10.dll
+D:\Học Tập\Lập Trình Web\Code\Tuan11\Tuan10\obj\Debug\Tuan10.pdb
+E:\LuuDuLieuSinhVien\LeThanhNam\Tuan11\Tuan10\bin\Tuan10.dll
+E:\LuuDuLieuSinhVien\LeThanhNam\Tuan11\Tuan10\bin\Tuan10.pdb
+E:\LuuDuLieuSinhVien\LeThanhNam\Tuan11\Tuan10\bin\Antlr3.Runtime.dll
+E:\LuuDuLieuSinhVien\LeThanhNam\Tuan11\Tuan10\bin\EntityFramework.dll
+E:\LuuDuLieuSinhVien\LeThanhNam\Tuan11\Tuan10\bin\Microsoft.Web.Infrastructure.dll
+E:\LuuDuLieuSinhVien\LeThanhNam\Tuan11\Tuan10\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:\LuuDuLieuSinhVien\LeThanhNam\Tuan11\Tuan10\bin\Newtonsoft.Json.dll
+E:\LuuDuLieuSinhVien\LeThanhNam\Tuan11\Tuan10\bin\System.Net.Http.Formatting.dll
+E:\LuuDuLieuSinhVien\LeThanhNam\Tuan11\Tuan10\bin\System.Web.Http.dll
+E:\LuuDuLieuSinhVien\LeThanhNam\Tuan11\Tuan10\bin\System.Web.Http.WebHost.dll
+E:\LuuDuLieuSinhVien\LeThanhNam\Tuan11\Tuan10\bin\System.Web.Mvc.dll
+E:\LuuDuLieuSinhVien\LeThanhNam\Tuan11\Tuan10\bin\System.Web.Optimization.dll
+E:\LuuDuLieuSinhVien\LeThanhNam\Tuan11\Tuan10\bin\System.Web.Providers.dll
+E:\LuuDuLieuSinhVien\LeThanhNam\Tuan11\Tuan10\bin\System.Web.Razor.dll
+E:\LuuDuLieuSinhVien\LeThanhNam\Tuan11\Tuan10\bin\System.Web.WebPages.Deployment.dll
+E:\LuuDuLieuSinhVien\LeThanhNam\Tuan11\Tuan10\bin\System.Web.WebPages.dll
+E:\LuuDuLieuSinhVien\LeThanhNam\Tuan11\Tuan10\bin\System.Web.WebPages.Razor.dll
+E:\LuuDuLieuSinhVien\LeThanhNam\Tuan11\Tuan10\bin\WebGrease.dll
+E:\LuuDuLieuSinhVien\LeThanhNam\Tuan11\Tuan10\bin\EntityFramework.xml
+E:\LuuDuLieuSinhVien\LeThanhNam\Tuan11\Tuan10\bin\Newtonsoft.Json.xml
+E:\LuuDuLieuSinhVien\LeThanhNam\Tuan11\Tuan10\bin\System.Net.Http.Formatting.xml
+E:\LuuDuLieuSinhVien\LeThanhNam\Tuan11\Tuan10\bin\System.Web.Http.xml
+E:\LuuDuLieuSinhVien\LeThanhNam\Tuan11\Tuan10\bin\System.Web.Http.WebHost.xml
+E:\LuuDuLieuSinhVien\LeThanhNam\Tuan11\Tuan10\bin\System.Web.Mvc.xml
+E:\LuuDuLieuSinhVien\LeThanhNam\Tuan11\Tuan10\bin\System.Web.Razor.xml
+E:\LuuDuLieuSinhVien\LeThanhNam\Tuan11\Tuan10\bin\System.Web.WebPages.xml
+E:\LuuDuLieuSinhVien\LeThanhNam\Tuan11\Tuan10\bin\System.Web.WebPages.Deployment.xml
+E:\LuuDuLieuSinhVien\LeThanhNam\Tuan11\Tuan10\bin\System.Web.WebPages.Razor.xml
+E:\LuuDuLieuSinhVien\LeThanhNam\Tuan11\Tuan10\obj\Debug\Tuan10.csprojResolveAssemblyReference.cache
+E:\LuuDuLieuSinhVien\LeThanhNam\Tuan11\Tuan10\obj\Debug\Tuan10.dll
+E:\LuuDuLieuSinhVien\LeThanhNam\Tuan11\Tuan10\obj\Debug\Tuan10.pdb
+E:\LuuDuLieuSinhVien\LeThanhNam\Tuan12\Tuan10\bin\Tuan10.dll
+E:\LuuDuLieuSinhVien\LeThanhNam\Tuan12\Tuan10\bin\Tuan10.pdb
+E:\LuuDuLieuSinhVien\LeThanhNam\Tuan12\Tuan10\bin\Antlr3.Runtime.dll
+E:\LuuDuLieuSinhVien\LeThanhNam\Tuan12\Tuan10\bin\EntityFramework.dll
+E:\LuuDuLieuSinhVien\LeThanhNam\Tuan12\Tuan10\bin\Microsoft.Web.Infrastructure.dll
+E:\LuuDuLieuSinhVien\LeThanhNam\Tuan12\Tuan10\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:\LuuDuLieuSinhVien\LeThanhNam\Tuan12\Tuan10\bin\Newtonsoft.Json.dll
+E:\LuuDuLieuSinhVien\LeThanhNam\Tuan12\Tuan10\bin\System.Net.Http.Formatting.dll
+E:\LuuDuLieuSinhVien\LeThanhNam\Tuan12\Tuan10\bin\System.Web.Http.dll
+E:\LuuDuLieuSinhVien\LeThanhNam\Tuan12\Tuan10\bin\System.Web.Http.WebHost.dll
+E:\LuuDuLieuSinhVien\LeThanhNam\Tuan12\Tuan10\bin\System.Web.Mvc.dll
+E:\LuuDuLieuSinhVien\LeThanhNam\Tuan12\Tuan10\bin\System.Web.Optimization.dll
+E:\LuuDuLieuSinhVien\LeThanhNam\Tuan12\Tuan10\bin\System.Web.Providers.dll
+E:\LuuDuLieuSinhVien\LeThanhNam\Tuan12\Tuan10\bin\System.Web.Razor.dll
+E:\LuuDuLieuSinhVien\LeThanhNam\Tuan12\Tuan10\bin\System.Web.WebPages.Deployment.dll
+E:\LuuDuLieuSinhVien\LeThanhNam\Tuan12\Tuan10\bin\System.Web.WebPages.dll
+E:\LuuDuLieuSinhVien\LeThanhNam\Tuan12\Tuan10\bin\System.Web.WebPages.Razor.dll
+E:\LuuDuLieuSinhVien\LeThanhNam\Tuan12\Tuan10\bin\WebGrease.dll
+E:\LuuDuLieuSinhVien\LeThanhNam\Tuan12\Tuan10\bin\EntityFramework.xml
+E:\LuuDuLieuSinhVien\LeThanhNam\Tuan12\Tuan10\bin\Newtonsoft.Json.xml
+E:\LuuDuLieuSinhVien\LeThanhNam\Tuan12\Tuan10\bin\System.Net.Http.Formatting.xml
+E:\LuuDuLieuSinhVien\LeThanhNam\Tuan12\Tuan10\bin\System.Web.Http.xml
+E:\LuuDuLieuSinhVien\LeThanhNam\Tuan12\Tuan10\bin\System.Web.Http.WebHost.xml
+E:\LuuDuLieuSinhVien\LeThanhNam\Tuan12\Tuan10\bin\System.Web.Mvc.xml
+E:\LuuDuLieuSinhVien\LeThanhNam\Tuan12\Tuan10\bin\System.Web.Razor.xml
+E:\LuuDuLieuSinhVien\LeThanhNam\Tuan12\Tuan10\bin\System.Web.WebPages.xml
+E:\LuuDuLieuSinhVien\LeThanhNam\Tuan12\Tuan10\bin\System.Web.WebPages.Deployment.xml
+E:\LuuDuLieuSinhVien\LeThanhNam\Tuan12\Tuan10\bin\System.Web.WebPages.Razor.xml
+E:\LuuDuLieuSinhVien\LeThanhNam\Tuan12\Tuan10\obj\Debug\Tuan10.csprojResolveAssemblyReference.cache
+E:\LuuDuLieuSinhVien\LeThanhNam\Tuan12\Tuan10\obj\Debug\Tuan10.dll
+E:\LuuDuLieuSinhVien\LeThanhNam\Tuan12\Tuan10\obj\Debug\Tuan10.pdb
+E:\LuuDuLieuSinhVien\Tuan12\Tuan10\bin\Tuan10.dll
+E:\LuuDuLieuSinhVien\Tuan12\Tuan10\bin\Tuan10.pdb
+E:\LuuDuLieuSinhVien\Tuan12\Tuan10\bin\Antlr3.Runtime.dll
+E:\LuuDuLieuSinhVien\Tuan12\Tuan10\bin\EntityFramework.dll
+E:\LuuDuLieuSinhVien\Tuan12\Tuan10\bin\Microsoft.Web.Infrastructure.dll
+E:\LuuDuLieuSinhVien\Tuan12\Tuan10\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:\LuuDuLieuSinhVien\Tuan12\Tuan10\bin\Newtonsoft.Json.dll
+E:\LuuDuLieuSinhVien\Tuan12\Tuan10\bin\System.Net.Http.Formatting.dll
+E:\LuuDuLieuSinhVien\Tuan12\Tuan10\bin\System.Web.Http.dll
+E:\LuuDuLieuSinhVien\Tuan12\Tuan10\bin\System.Web.Http.WebHost.dll
+E:\LuuDuLieuSinhVien\Tuan12\Tuan10\bin\System.Web.Mvc.dll
+E:\LuuDuLieuSinhVien\Tuan12\Tuan10\bin\System.Web.Optimization.dll
+E:\LuuDuLieuSinhVien\Tuan12\Tuan10\bin\System.Web.Providers.dll
+E:\LuuDuLieuSinhVien\Tuan12\Tuan10\bin\System.Web.Razor.dll
+E:\LuuDuLieuSinhVien\Tuan12\Tuan10\bin\System.Web.WebPages.Deployment.dll
+E:\LuuDuLieuSinhVien\Tuan12\Tuan10\bin\System.Web.WebPages.dll
+E:\LuuDuLieuSinhVien\Tuan12\Tuan10\bin\System.Web.WebPages.Razor.dll
+E:\LuuDuLieuSinhVien\Tuan12\Tuan10\bin\WebGrease.dll
+E:\LuuDuLieuSinhVien\Tuan12\Tuan10\bin\EntityFramework.xml
+E:\LuuDuLieuSinhVien\Tuan12\Tuan10\bin\Newtonsoft.Json.xml
+E:\LuuDuLieuSinhVien\Tuan12\Tuan10\bin\System.Net.Http.Formatting.xml
+E:\LuuDuLieuSinhVien\Tuan12\Tuan10\bin\System.Web.Http.xml
+E:\LuuDuLieuSinhVien\Tuan12\Tuan10\bin\System.Web.Http.WebHost.xml
+E:\LuuDuLieuSinhVien\Tuan12\Tuan10\bin\System.Web.Mvc.xml
+E:\LuuDuLieuSinhVien\Tuan12\Tuan10\bin\System.Web.Razor.xml
+E:\LuuDuLieuSinhVien\Tuan12\Tuan10\bin\System.Web.WebPages.xml
+E:\LuuDuLieuSinhVien\Tuan12\Tuan10\bin\System.Web.WebPages.Deployment.xml
+E:\LuuDuLieuSinhVien\Tuan12\Tuan10\bin\System.Web.WebPages.Razor.xml
+E:\LuuDuLieuSinhVien\Tuan12\Tuan10\obj\Debug\Tuan10.csprojResolveAssemblyReference.cache
+E:\LuuDuLieuSinhVien\Tuan12\Tuan10\obj\Debug\Tuan10.dll
+E:\LuuDuLieuSinhVien\Tuan12\Tuan10\obj\Debug\Tuan10.pdb

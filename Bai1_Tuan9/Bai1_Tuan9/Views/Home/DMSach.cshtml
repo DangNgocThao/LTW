@@ -1,0 +1,100 @@
+﻿@model IEnumerable<Bai1_Tuan9.Models.Sach>
+
+@{
+    ViewBag.Title = "DMSach";
+    Layout = "~/Views/Shared/LayoutQuanLy.cshtml";
+}
+
+@helper Truncate(string input, int lenght)
+{
+    {
+        if(input.Length<lenght)
+        {            
+            @input
+        }
+        else
+        {
+            @input.Substring(0,lenght)<text>...</text>
+        }
+    }
+}
+
+    <h2>Danh Mục Sách</h2>
+
+    <p>
+        @Html.ActionLink("Thêm mới", "ThemSachMoi")
+    </p>
+    <table class="table table-bordered">
+        <tr>
+            <th>
+                Tên Sách
+            </th>
+            <th>
+                Giá Bán
+            </th>
+            <th>
+                Mô Tả
+            </th>
+            <th>
+                Ngày Cập Nhật
+            </th>
+            <th>
+                Ảnh Bìa
+            </th>
+            <th>
+                Số Lượng Tồn
+            </th>
+            <th>
+                Tên Chủ Đề
+            </th>
+            <th>
+                Tên NXB
+            </th>
+            <th>
+                Mới
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TenSach)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.GiaBan)
+                </td>
+                <td>
+                    @*@Html.DisplayFor(modelItem => item.MoTa)*@
+                    @Truncate(item.MoTa, 100)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NgayCapNhat)
+                </td>
+                <td>
+                    @*@Html.DisplayFor(modelItem => item.AnhBia)*@
+                    <img src="/HinhAnhSP/@item.AnhBia" width="80" height="150" />
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SoLuongTon)
+                </td>
+                <td>
+                    @*@Html.DisplayFor(modelItem => item.MaChuDe)*@
+                    @item.ChuDe.TenChuDe
+                </td>
+                <td>
+                    @*@Html.DisplayFor(modelItem => item.MaNXB)*@
+                    @item.NhaXuatBan.TenNXB
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Moi)
+                </td>
+                <td>
+                    @Html.ActionLink("Sửa", "Edit", new { id=item.MaSach }) |
+                    @Html.ActionLink("Chi tiết", "Details", new { id=item.MaSach }) |
+                    @Html.ActionLink("Xóa", "Delete", new { id=item.MaSach })
+                </td>
+            </tr>
+}
+
+    </table>

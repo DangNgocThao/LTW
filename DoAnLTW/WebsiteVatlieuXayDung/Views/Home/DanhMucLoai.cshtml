@@ -1,0 +1,23 @@
+﻿@{
+    int i = 0;
+    string[] s = new string[] { "fa-solid fa-gift", "fa-brands fa-microsoft", "fa-solid fa-trowel-bricks", "fa-solid fa-paint-roller",
+    "fa-solid fa-bath","fa-solid fa-layer-group","fa-solid fa-plug-circle-plus","fa-solid fa-house"};
+}
+
+@using WebsiteVatlieuXayDung.Models;
+@model List<LOAIHANG>
+
+ 
+<ul class="nav navbar">
+
+    @foreach (var item in Model)
+    {
+        if (i >= s.Count())
+        { 
+            i = 0;
+        }
+        <li class="nav-item">
+            <a href="/Home/SPTheoLoai/@item.MALH" class="nav-link text-center text-white"><i class="@s[i++]"></i><br />@item.TENLH</a>
+        </li>
+    }
+</ul>

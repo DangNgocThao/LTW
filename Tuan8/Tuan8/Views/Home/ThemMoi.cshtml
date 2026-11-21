@@ -1,0 +1,28 @@
+﻿@model Tuan8.Models.Theloaitin
+
+@{
+    ViewBag.Title = "ThemMoi";
+}
+
+<h2>ThemMoi</h2>
+
+<form action="/Home/XLThem" method="post">
+    <fieldset>
+        <legend>Theloaitin</legend>
+
+        <div class="editor-label">
+            Tên thể loại
+        </div>
+        <div class="editor-field">
+            <input type="text" name="Tentheloai" value=" " />
+        </div>
+
+        <p>
+            <input type="submit" value="Create" />
+        </p>
+    </fieldset>
+
+    <div>
+        @Html.ActionLink("Back to List", "DSTheLoaiTin")
+    </div>
+</form>

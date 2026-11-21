@@ -1,0 +1,51 @@
+﻿@model IEnumerable<Tuan13.Models.tbl_ChiTiet>
+
+@{
+    ViewBag.Title = "ThongKeHoaDon";
+    Layout = "";
+    var sl = @Model.Sum(i => i.SoLuong);
+    var tongtien = @Model.Sum(i => i.SoLuong * i.tbl_SanPham.DonGia);
+}
+(SL:@sl/@tongtien)
+
+<div class="dropdown nav navbar">
+    <a class="nav-link dropdown-toggle" id="a" data-toggle="dropdown"></a>
+    <div class="dropdown-menu" style="position:static" aria-labelledby="a">
+        <a class="dropdown-item">
+            <table class="table table-bordered text-center">
+                <tr>
+                    <th>
+                        Mã sách
+                    </th>
+                    <th>
+                        Tên sách
+                    </th>
+                    <th>
+                        Số Lượng
+                    </th>
+                    <th>
+                        Đơn giá
+                    </th>
+                </tr>
+
+            @foreach (var item in Model) {
+                <tr>
+                    <td>
+                        @item.MaSP
+                    </td>
+                    <td>
+                        @item.tbl_SanPham.TenSP
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.SoLuong)
+                    </td>
+                    <td>
+                        @item.tbl_SanPham.DonGia
+                    </td>
+                </tr>
+            }
+
+            </table>
+        </a>
+    </div>
+</div>

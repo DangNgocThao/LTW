@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    
+</head>
+@using Tuan10.Models;   
+@{   
+    GioHang gh = (GioHang)Session["gh"];
+}
+<body>
+    <div class="container-fluid">
+        <div class="row p-3 bg-secondary">
+            <div class="col-6">
+                <input type="text" placeholder="Nhập từ bạn cần tìm?" class="form-control"/>
+            </div>
+            <div class="col-6">
+
+            </div>
+        </div>
+        <div class="row">
+            <ul class="nav">
+                <li class="nav-item"><a href="/Home/ListSanPham" class="nav-link">Trang chủ</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Gioi thiệu</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Hướng dẫn sử dụng</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Liên hệ</a></li>
+                @if(Session["kh"]==null)
+                {
+                    <li class="nav-item"><a href="/Home/DangNhap" class="nav-link">Đăng nhập</a></li>
+                }
+                else
+                {
+                    <li class="nav-item"><a href="/Home/DangXuat" class="nav-link">Đăng Xuất</a></li>
+                }
+                <li class="nav-item"><a href="/Home/GioHang" class="nav-link">Giỏ hàng (
+                    @if(Session["gh"]==null)
+                    {
+                        <span>0</span>
+                    }
+                    else
+                    {
+                        <span>@gh.demSoLuongMatHang()</span>
+                    }
+                    )
+                </a></li>
+            </ul>
+        </div>
+        <div class="row">
+            <div class="col">
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewBag.Title = "DangNhap";
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+}
+
+<div class="row mt-5">
+    <div class="col text-center">
+        <h5>ĐĂNG NHẬP</h5>
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+        <p class="ps-2 mt-2">UserName</p>
+        <input placeholder="Enter your Username" class="w-100 btn btn-outline-danger text-start" type="text" />
+        <small class="text-danger">Must to enter your username</small>
+        <p class="ps-2 mt-2">Password</p>
+        <input placeholder="••••••••••••••••••••••••" class="w-100 btn btn-outline-success text-start" type="text" />
+        <small class="text-success">Password include special character!</small>
+        <div class="mt-2">
+            <input type="checkbox" name="ck" id="ck">
+            <label for="ck">Remember Password</label>
+        </div>
+        <div class="text-center mt-2">
+            <button class="btn btn-primary">ĐĂNG NHẬP</button>
+        </div>
+    </div>
+</div>

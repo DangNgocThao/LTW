@@ -1,0 +1,16 @@
+﻿@using Tuan10.Models;
+@model List<NhaXuatBan>
+
+<ul class="nav flex-column border-left border-right">
+    <li class="nav-item bg-warning p-2 pl-5 text-white font-weight-bold">
+        NHÀ XUẤT BẢN
+    </li>
+    @foreach (var item in Model)
+    {
+        <li class="nav-item p-2 border-bottom pl-5">
+            <a href="/Home/DS_Sach_TheoChuDe/@item.MaNXB">
+                @item.TenNXB
+            </a>
+        </li>
+    }
+</ul>

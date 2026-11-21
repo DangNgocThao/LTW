@@ -1,0 +1,63 @@
+﻿@model List<DangNgocThao_2001206904_KT2.Models.Item>
+
+@{
+    ViewBag.Title = "XemGioHang";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+
+
+@if (Model.Count == 0)
+{ 
+    <h2>khong co san pham</h2>
+}
+else
+{
+    <h2>chi tiet dich vu</h2>
+    <div class="row">
+        <div class="col-12">PHIEU XAC NHAN BOOKING</div>
+        @foreach (var item in Model)
+	    {
+            <div class="col-6">
+                <p>ma tour: @item.ma</p>
+                <p>ten tour: @item.ten</p>
+                <p>ngay di: @item.ngaydi</p>
+                <p>so luong: @item.soluong x @item.dongia đ</p>
+                <p>tri gia: @(item.soluong * item.dongia) đ</p>
+            </div>		 
+	    }
+    </div>
+    <div class="row">
+        <div class="col text-right">
+            <a class="btn btn-outline-primary">tong tien: @Model.Sum(t=>t.soluong*t.dongia)</a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <p>XIN QUY KHACH VUI LONG CHON PHUONG THUC THANH TOAN</p>            
+        </div>
+        <form class="w-100" action="/Home/DatHang" method="post">
+            <div class="col-12">
+                <input type="radio" name="tt" id="1" value="1" checked/>
+                <label for="1">tien mat</label><br />
+                <input type="radio" name="tt" id="2" value="2" />
+                <label for="2">chuyen khoan</label><br />
+                <input type="radio" name="tt" id="3" value="3" />
+                <label for="3">atm/internet banking</label><br />
+                <input type="radio" name="tt" id="4" value="4" />
+                <label for="4">the tin dung</label><br />
+                <input type="radio" name="tt" id="5" value="5" />
+                <label for="5">thanh toan bang quet the</label>
+            </div>
+            <div class="col-12 text-center">
+                @if (Session["kh"] == null)
+                {
+                    <a class="btn btn-primary" href="/Home/dangNhap">Dang nhap</a>
+                }
+                else
+                {
+                    <button type="submit" class="btn btn-primary">dong y dat tour</button>
+                }
+            </div>
+        </form>
+    </div>
+}

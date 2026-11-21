@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/KhungLayoutPage.cshtml";
+}
+@using Thao_DangNgoc_2001206904_KT1.Models;
+@model List<sanpham>
+
+@foreach (var item in Model)
+{
+    <div class="col-3 card text-center float-left" style="height:350px;">
+        <a><img src="/HinhAnh/@item.hinh" style="width:200px;height:200px;"></a>
+        <div class="card-body">
+            <p>@item.masp @item.tensp</p>
+            <a href="/Home/ChiTiet/@item.masp" class="btn btn-warning text-white">Mua</a>
+        </div>
+    </div>
+}

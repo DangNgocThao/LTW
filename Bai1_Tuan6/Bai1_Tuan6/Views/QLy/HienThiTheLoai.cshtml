@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "HienThiTheLoai";
+    Layout = "~/Views/Shared/LayoutQuanLy.cshtml";
+}
+
+@using Bai1_Tuan6.Models;
+@model List<Category>
+
+<h2 class="text-center">Hiển Thị Thể Loại</h2>
+<table class="table table-bordered">
+    <tr class="thead-dark">
+        <th>Mã loại</th>
+        <th>Tên loại</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.maloai</td>
+            <td>@item.tenloai</td>
+        </tr>
+    }
+</table>

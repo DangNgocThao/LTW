@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+@{
+    if(ViewBag.key==null)
+    {
+        <p>Danh sách rổng</p>
+    }
+    else
+    {
+        foreach (var item in ViewBag.key)
+        {
+            <p>@item</p>
+        }
+    }
+}

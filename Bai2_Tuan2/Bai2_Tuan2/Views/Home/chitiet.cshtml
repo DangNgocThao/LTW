@@ -1,0 +1,27 @@
+﻿@{
+    ViewBag.Title = "chitiet";
+}
+
+<link href="~/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+@using Bai2_Tuan2.Models;
+@model Sach
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-2">
+            <img class="w-100" src="@Model.Anh" />
+        </div>
+        <div class="col">
+            <p>Tác giả: <a class="text-primary">@Model.TacGia</a></p>
+            <h3>@Model.Ten</h3>
+            <h2 class="p-5">@Model.Gia <u>đ</u></h2>
+            <a href="/Home/Index"><button class="btn btn-primary">Xem Sản Phẩm Tương Tự</button></a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <p class="h2 text-secondary"><u>Mô tả sản phẩm</u></p>
+            <p>@Model.MoTa</p>
+        </div>
+    </div>
+</div>

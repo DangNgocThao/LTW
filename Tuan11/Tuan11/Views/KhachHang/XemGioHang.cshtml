@@ -1,0 +1,68 @@
+﻿@model IEnumerable<Tuan11.Models.Item>
+
+@{
+    ViewBag.Title = "XemGioHang";
+    Layout = "~/Views/Shared/KhungTrang.cshtml";
+}
+
+<h2 class="text-center">Xem Giỏ Hàng</h2>
+
+@*<p>
+    @Html.ActionLink("Create New", "Create")
+</p>*@
+@if (Model.Count()==0)
+{
+    <p>không có sản phẩm trong giỏ hàng</p>
+}
+else
+{
+<table class="table table-bordered">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.MaSach)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TenSach)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Hinh)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DonGia)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SoLuongMua)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.MaSach)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TenSach)
+        </td>
+        <td>
+            <img src="/HinhAnhSP/@item.Hinh" class="w-100" />
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DonGia)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SoLuongMua)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+        </td>
+    </tr>
+}
+
+</table>
+    <p class="text-right text-danger">
+        Thành tiền: @Model.Sum(t=>t.DonGia*t.SoLuongMua)
+    </p>
+}

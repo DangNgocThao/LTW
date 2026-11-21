@@ -1,0 +1,23 @@
+﻿@model List<DangNgocThao_2001206904_KT2.Models.Tour>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-4 pt-3">
+            <div class="card">
+                <a class="text-center">@item.TenTour</a>
+                <a href="/Home/chiTiet/@item.MaTour"><img class="w-100" src="/Hinhanh/@item.hinh" /></a>
+                <div class="card-body">
+                    <p>Ngày đi: @item.NgayDi</p>
+                    <p>Giá: @item.GiaVe</p>
+                    <p>Nơi khởi hành: @item.NoiKhoiHanh</p>
+                </div>
+            </div>
+        </div>
+    }
+</div>

@@ -1,0 +1,32 @@
+﻿@{
+    ViewBag.Title = "Index2";
+}
+<link href="~/bootstrap/css/bootstrap.css" rel="stylesheet" />
+@using Bai1_Tuan2.Models;
+@model Employee
+           
+<div class="container mt-4">
+    <table class="table table-bordered">
+        <thead class="thead-light">
+            <tr>
+                <th colspan="2" class="bg-primary text-center text-light">THÔNG TIN NHÂN VIÊN</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>Mã Nhân Viên</td>
+            <td>@Model.Id</td>
+        </tr>
+        <tr>
+            <td>Tên Nhân Viên</td>
+            <td>@Model.Name</td>
+        </tr>
+        <tr>
+            <td>Giới tính</td>
+            <td>Nam</td>
+        </tr>
+        <tr>
+            <td>Hình Nhân Viên</td>
+            <td><img src="~/Image/image.png" /></td>
+        </tr>
+    </table>
+</div>

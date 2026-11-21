@@ -1,0 +1,58 @@
+﻿@using DangNgocThao_2001206904_KT2.Models;
+@model Tour
+
+@{
+    ViewBag.Title = "chiTiet";
+    Layout = "~/Views/Shared/Layout.cshtml";
+    List<ChiTietTour> t = ViewBag.dv;
+    string[] s = Model.NoiThamQuan.Split('.');
+    string[] h = Model.dsHinh.Split(',');
+}
+
+<h2>Chi Tiet dich vu</h2>
+<div class="row">
+    @Model.TenTour
+</div>
+<div class="row">
+    <div class="col-7">
+        <img class="w-100" src="/Hinhanh/@Model.hinh" />
+        <div class="row">
+            @foreach (var item in h)
+            {
+                <div class="col-3">
+                    <img class="w-100" src="/Hinhanh/@item.Trim()" />
+                </div>
+            }
+        </div>
+    </div>
+    <div class="col-5">
+        <p>khoi hanh: @Model.NgayDi</p>
+        <p>noi khoi hanh: @Model.NoiKhoiHanh</p>
+        <p>@Model.GiaVe đ</p>
+        <ul>
+            <li>DỊCH VỤ ĐI KÈM</li>
+            @foreach (var item in t)
+            {
+                <li>
+                    @item.DichVu.TenDichVu
+                </li>
+            }
+        </ul>
+        <a class="btn btn-success" href="/Home/chonMua/@Model.MaTour">Đặt hàng</a>
+    </div>
+</div>
+<div class="row">
+    <h2>CHƯƠNG TRÌNH TOUR</h2>
+    <p>@Model.ChuongTrinhTour</p>
+</div>
+<div class="row">
+    <div class="col">
+        <h2>CÁC NƠI THAM QUAN</h2>
+        <ul>
+            @foreach (var item in s)
+            {
+                <li>@item</li>
+            }
+        </ul>
+    </div>
+</div>

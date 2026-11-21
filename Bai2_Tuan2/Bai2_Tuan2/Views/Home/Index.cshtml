@@ -1,0 +1,25 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+@using Bai2_Tuan2.Models;
+@model List<Sach>
+
+<link href="~/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+<div class="container-fluid">
+    <div class="row">
+        @foreach (var item in @Model)
+        {
+            <div class="col-3 mt-4">
+                <div class="card text-center">
+                    <a href="/Home/chitiet/@item.Ma"><img src="@item.Anh" /></a>
+                    <div class="card-body">
+                        <p>@item.Ten</p>
+                        <p class="text-danger">@item.Gia VNĐ</p>
+                        <button class="w-100 bg-danger text-white">CHỌN MUA</button>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

@@ -1,0 +1,92 @@
+﻿@using WebsiteVatlieuXayDung.Models;
+@{
+    ViewBag.Title = "LichSuMuaHang";
+    Layout = "~/Views/Shared/LayoutWeb.cshtml";
+}
+@model List<HOADONKH>
+@{
+    List<GIAOHANG> dsGH = ViewBag.dsGH;
+    List<CHITIETHOADONKH> dsCTHD = ViewBag.dsCTHD;
+}
+@if (Model == null || Model.Count == 0)
+{
+    <div class="col">
+        <h3 class="m-4">Quý khách chưa đặt hàng</h3>
+    </div>
+}
+else
+{
+    <div class="col mt-3">
+        @foreach (var item in Model)
+        {
+            <div class="row mb-3">
+                <div class="col-6">
+                    <table class="table" style="background-color:lightyellow">
+                        <tr>
+                            <td colspan="2" class="text-center font-weight-bold"><a>THÔNG TIN ĐƠN HÀNG</a></td>
+                        </tr>
+                        <tr class="">
+                            <td><a class="font-weight-bold">Mã Hóa Đơn</a></td>
+                            <td>@item.MAHD</td>
+                        </tr>
+                        <tr class="">
+                            <td><a class="font-weight-bold">Tình Trạng</a></td>
+                            <td>
+                                @if (item.GIAOHANG.TINHTRANG.Contains("Chưa"))
+                                {
+                                    <a class="text-danger font-weight-bold">Chưa giao</a>
+                                }
+                                else
+                                {
+                                    <a class="font-weight-bold">Đã giao</a>
+                                }
+                            </td>
+                        </tr>
+                        <tr class="">
+                            <td><a class="font-weight-bold">Ngày Mua</a></td>
+                            <td>@item.NGAY</td>
+                        </tr>
+                        <tr class="">
+                            <td><a class="font-weight-bold">Tổng Số Lượng Sản Phẩm</a></td>
+                            <td>@item.TONGSOLUONGSPDAMUA</td>
+                        </tr>
+                    </table>
+                </div>
+
+
+                <div class="col-6">
+                    <table class="table text-center" style="background-color:lightyellow">
+                        <thead>
+                            <tr colspan="3" class="text-center">
+                                <th colspan="3" class="text-center"><a>CHI TIẾT ĐƠN HÀNG</a></th>
+                            </tr>
+                        </thead>
+                        <thead class="thead-dark">
+                            <tr>
+                                <th><a class="font-weight-bold">Tên hàng</a></th>
+                                <th><a class="font-weight-bold">Số lượng</a></th>
+                                <th><a class="font-weight-bold">Giá bán</a></th>
+                            </tr>
+                        </thead>
+                        @foreach (var t in dsCTHD)
+                        {
+                            if (t.MAHD == item.MAHD)
+                            {
+                                <tr class="">
+                                    <td><a class="font-weight-bold">@t.HANGHOA.TENHH</a></td>
+                                    <td>@t.SOLUONG</td>
+                                    <td>@t.HANGHOA.GIA</td>
+                                </tr>
+                            }
+                        }
+                        <tr class="">
+                            <td class="" style="background-color:greenyellow"><a class="font-weight-bold">Thành Tiền</a></td>
+                            <td style="background-color:greenyellow"></td>
+                            <td class=" font-weight-bold" style="background-color:greenyellow">@item.TONGTIEN</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        }
+    </div>
+}

@@ -1,0 +1,67 @@
+﻿@model WebsiteVatlieuXayDung.Models.HANGHOA
+
+@{
+    ViewBag.Title = "ChiTietSanPham";
+    Layout = "~/Views/Shared/LayoutWeb.cshtml";
+}
+
+<div class="card card-body border-0 bg-light">
+    <div class="container p-0">
+        <div class="row bg-white pt-3">
+            <div class="col-xl-4 d-none d-sm-block">
+                <a>
+                    <img width="350" height="350" src="/Images/@Model.HINHSANPHAM" alt="hinhsanpham" />
+                </a>
+            </div>
+            <div class="col-xl-5">
+                <div class="p-2">
+                    <h3>@Model.TENHH <br />@Model.MAHH</h3>
+                    <div class="d-none d-md-block">
+                        <span>Đánh giá sản phẩm</span>
+                        <div class="d-flex flex-row mb-3">
+                            <div class="p-2">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star-half-stroke"></i>
+                                4.5/5
+                            </div>
+                            <div class="p-2">
+                                18760 lượt xem
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        Địa điểm: "@Model.DIACHI"
+                    </div>
+                    <hr class="p-0" />
+                    <div class="d-flex flex-column mb-3">
+                        <p>Giá bán</p>
+                        <p class="text-danger font-weight-bold">"@Model.GIA" VNĐ</p>
+                        <p class="h4">MÔ TẢ</p>
+                        <p>"@Model.MOTA"</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3">
+                <div class="mb-4 chitiet">
+                    <p class="mt-2">
+                        <span>Thời gian xử lý: </span>
+                        <span>1-3 ngày</span>
+                    </p>
+                    <p class="d-flex w-100 justify-content-between">
+                        <span>Thời gian ship hàng:</span>
+                        <b>2 - 5 ngày</b>
+                    </p>
+                    <a style="border-radius:20px" class="btn btn-block btn-primary" href="/Home/ThemMatHang/@Model.MAHH">Đặt hàng ngay</a>
+                    <a href="/Home/ThemMatHang/@Model.MAHH" style="border-radius:20px" class="btn btn-block btn-outline-secondary"><i class="fa-brands fa-opencart"></i> Thêm vào giỏ hàng</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div>
+    @Html.ActionLink("Trở Lại Trang Danh Sách Hàng", "DSHang")
+</div>

@@ -1,0 +1,28 @@
+﻿@{
+    ViewBag.Title = "DangNhap";
+    Layout = "~/Views/Shared/LayoutWeb.cshtml";
+}
+
+<div class="row">
+    <div class="col-3"></div>
+    <div class="col-6 pt-4 pr-4 pl-4 bg-light">
+        <h2 class="text-center">ĐĂNG NHẬP</h2>
+        <form action="/Home/XuLyDangNhap" method="post">
+            <div class="form-outline mb-4">
+                <label class="form-label">Số điện thoại</label>
+                <input type="text" class="form-control" name="txtSDT"/>
+            </div>
+            <div class="form-outline mb-4">
+                <label class="form-label">Mật khẩu</label>
+                <input type="password" class="form-control" name="txtPass"/>
+            </div>
+            <input type="submit" class="btn btn-primary btn-block mb-4" value="Đăng nhập" name="" />
+            <div class="text-center">
+                <p>Chưa có tài khoản? <a href="/Home/DangKy">Đăng ký ngay</a></p>
+            </div>
+            <p class="text-center text-danger">@ViewBag.kq</p>
+        </form>
+    </div>
+    <div class="col-3"></div>
+</div>
+

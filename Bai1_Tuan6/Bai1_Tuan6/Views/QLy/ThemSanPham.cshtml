@@ -1,0 +1,75 @@
+﻿@{
+    ViewBag.Title = "ThemSanPham";
+    Layout = "~/Views/Shared/LayoutQuanLy.cshtml";
+}
+@using Bai1_Tuan6.Models;
+@{
+    List<Category> dsloai = ViewBag.loai;
+}
+
+<form action="/QLy/XLThemSP" method="post" enctype="multipart/form-data">
+    <table class="table">
+        <tr>
+            <td colspan="2" class="bg-warning text-center">THÊM ĐIỆN THOẠI MỚI</td>
+        </tr>
+        <tr>
+            <td>
+                Mã SP
+            </td>
+            <td>
+                <input type="text" name="masp" class="form-control" placeholder="Giá trị Mã sp tự tăng, yc kg nhập!" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Tên SP
+            </td>
+            <td>
+                <input type="text" name="tensp" class="form-control" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Đường dẫn
+            </td>
+            <td>
+                <input type="file" name="fUpload" class="form-control" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Giá
+            </td>
+            <td>
+                <input type="text" name="gia" class="form-control" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Mô tả
+            </td>
+            <td>
+                <input type="text" name="mota" class="form-control" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Loại SP
+            </td>
+            <td>
+                <select name="maloai">
+                    @foreach (var item in dsloai)
+                    {
+                        <option value="@item.maloai">@item.tenloai</option>
+                    }
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="submit" value="Thêm mới" />@ViewBag.tt
+            </td>
+        </tr>
+    </table>
+</form>

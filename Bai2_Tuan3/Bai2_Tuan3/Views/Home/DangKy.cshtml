@@ -1,0 +1,63 @@
+﻿@{
+    ViewBag.Title = "DangKy";
+}
+<link href="~/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+<div class="container">
+    <h2>ENTER INFORMATION TO REGIST AN COURSE</h2>
+    <hr />
+    <form action="/Home/XLDangKy" method="post" enctype="multipart/form-data">
+        <div class="form-group mb-2">
+            <label class="font-weight-bold">Full Name</label>
+            <input type="text" name="txtName" class="form-control" placeholder="Họ tên sinh viên" />
+            <small class="form-text text-muted">Nhập họ tên Đầy đủ. Captial từng từ</small>
+        </div>
+        <div class="form-group">
+            <label class="font-weight-bold">ID Student</label>
+            <input type="text" name="txtID" placeholder="Mã sinh viên" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label class="font-weight-bold">Email</label>
+            <input type="email" name="txtEmail" placeholder="Nhập email" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label class="font-weight-bold">File Image input</label><br />
+            <input type="file" name="fileUpload" />
+        </div>
+        <div class="form-group">
+            <label class="font-weight-bold">Note</label><br />
+            <textarea class="w-100" name="txtGhiChu" placeholder="Note Note"></textarea>
+        </div>
+        <p><b>We are Known by</b></p>
+        <div class="form-group form-check">
+            <input type="checkbox" name="ckTV" class="form-check-input" value="Televison" id="c1" />
+            <label class="form-check-label" for="c1">Televison</label>
+            <br />
+            <input type="checkbox" name="ckWeb" class="form-check-input" value="Website" id="c2" />
+            <label class="form-check-label" for="c2">Website</label>
+            <br />
+            <input type="checkbox" name="ckPP" class="form-check-input" value="Paper" id="c3" />
+            <label class="form-check-label" for="c3">NewPaper</label>
+        </div>
+        <p><b>Choose Work Study</b></p>
+        <div class="form-group form-check">
+            <input type="radio" name="rdBuoihoc" class="form-check-input" value="Morning (2 - 4 - 6)" id="r1" />
+            <label class="form-check-label" for="r1">Morning (2 - 4 - 6)</label>
+            <br />
+            <input type="radio" name="rdBuoihoc" class="form-check-input" value="Aftermoon (2 - 4 - 6)" id="r2" />
+            <label class="form-check-label" for="r2">Aftermoon (2 - 4 - 6)</label>
+            <br />
+            <input type="radio" name="rdBuoihoc" class="form-check-input" value="Morning (3 - 5 - 7)" id="r3" />
+            <label class="form-check-label" for="r3">Morning (3 - 5 - 7)</label>
+            <br />
+            <input type="radio" name="rdBuoihoc" class="form-check-input" value="Aftermoon (3 - 5 - 7)" id="r4" />
+            <label class="form-check-label" for="r4">Aftermoon (3 - 5 - 7)</label>
+        </div>
+        <label class="font-weight-bold" for="sc">Selects an course</label><br />
+        <select class="btn btn-outline-secondary w-100 mb-3 text-left" name="course" id="sc">
+            <option value="Html CSS Boottrap">1. Html CSS Boottrap</option>
+            <option value="ASP.Net MVC">2. ASP.Net MVC</option>
+        </select><br />
+        <button class="btn btn-light btn-outline-secondary" type="submit">Submit Button</button>
+        <button class="btn btn-light btn-outline-secondary" type="reset">Reset Button</button>
+    </form>
+</div>

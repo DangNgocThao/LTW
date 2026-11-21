@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 11.375" name="Data">
+  <DataContextMoniker Name="/DataDataContext" />
+  <nestedChildShapes>
+    <classShape Id="b87d3f44-ba50-410a-a106-abd18d0794ce" absoluteBounds="6.25, 0.75, 2, 1.3862939453125">
+      <DataClassMoniker Name="/DataDataContext/ChiTietDatHang" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0bad3922-275d-4696-93a0-f1e101d96a77" absoluteBounds="6.265, 1.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9bd8bc59-67f7-448e-85d4-c39ee4e04f3d" absoluteBounds="3.5, 3.125, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/DataDataContext/Tour" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bcf08fd2-da99-4e65-92bd-8eaeea58617e" absoluteBounds="3.515, 3.585, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="92d2ac0f-2c46-48bb-ba6d-000d74e17de1" absoluteBounds="6.25, 3.875, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/DataDataContext/ChiTietTour" />
+      <nestedChildShapes>
+        <elementListCompartment Id="70cd1f60-78eb-4013-86c2-5ea61ab2614f" absoluteBounds="6.265, 4.335, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b1d29183-c1c9-41ef-af31-06fc6d25b02d" absoluteBounds="0.75, 3.875, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/DataDataContext/Danhmuc" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9c6978ed-f6a6-476f-8ad1-9251c01ae444" absoluteBounds="0.765, 4.335, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4dd17fd6-b322-4449-a658-30976e98038b" absoluteBounds="3.5, 6.875, 2, 1.7708968098958318">
+      <DataClassMoniker Name="/DataDataContext/DatHang" />
+      <nestedChildShapes>
+        <elementListCompartment Id="54d58d89-cd5b-45de-b869-c03759e67e21" absoluteBounds="3.515, 7.335, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b49a5450-ea41-4822-9b66-4ddf832a8dd1" absoluteBounds="3.5, 9.875, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/DataDataContext/DichVu" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7f0d96ba-1769-45f9-becb-a52a2e6ffce1" absoluteBounds="3.515, 10.335, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="55425ea0-e7ed-45c2-bf1a-07923652a607" absoluteBounds="0.75, 7, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/DataDataContext/KhachHang" />
+      <nestedChildShapes>
+        <elementListCompartment Id="90c2d30e-33c7-4168-bdbd-3c579bb7d4b4" absoluteBounds="0.765, 7.46, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(4.5 : 3.125); (4.5 : 1.44314697265625); (6.25 : 1.44314697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataDataContext/Tour/Tour_ChiTietDatHang" />
+      <nodes>
+        <classShapeMoniker Id="9bd8bc59-67f7-448e-85d4-c39ee4e04f3d" />
+        <classShapeMoniker Id="b87d3f44-ba50-410a-a106-abd18d0794ce" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 4.47199625651042); (5.79166666666667 : 4.47199625651042 : JumpStart); (5.95833333333333 : 4.47199625651042 : JumpEnd); (6.25 : 4.47199625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataDataContext/Tour/Tour_ChiTietTour" />
+      <nodes>
+        <classShapeMoniker Id="9bd8bc59-67f7-448e-85d4-c39ee4e04f3d" />
+        <classShapeMoniker Id="92d2ac0f-2c46-48bb-ba6d-000d74e17de1" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 4.47199625651042); (3.5 : 4.47199625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataDataContext/Danhmuc/Danhmuc_Tour" />
+      <nodes>
+        <classShapeMoniker Id="b1d29183-c1c9-41ef-af31-06fc6d25b02d" />
+        <classShapeMoniker Id="9bd8bc59-67f7-448e-85d4-c39ee4e04f3d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 6.875); (5.875 : 6.5); (5.875 : 1.82097245898437); (6.25 : 1.82097245898437)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataDataContext/DatHang/DatHang_ChiTietDatHang" />
+      <nodes>
+        <classShapeMoniker Id="4dd17fd6-b322-4449-a658-30976e98038b" />
+        <classShapeMoniker Id="b87d3f44-ba50-410a-a106-abd18d0794ce" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 10.4719962565104); (7.25 : 10.4719962565104); (7.25 : 5.06899251302083)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataDataContext/DichVu/DichVu_ChiTietTour" />
+      <nodes>
+        <classShapeMoniker Id="b49a5450-ea41-4822-9b66-4ddf832a8dd1" />
+        <classShapeMoniker Id="92d2ac0f-2c46-48bb-ba6d-000d74e17de1" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 7.78929768880208); (3.5 : 7.78929768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataDataContext/KhachHang/KhachHang_DatHang" />
+      <nodes>
+        <classShapeMoniker Id="55425ea0-e7ed-45c2-bf1a-07923652a607" />
+        <classShapeMoniker Id="4dd17fd6-b322-4449-a658-30976e98038b" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

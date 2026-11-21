@@ -1,0 +1,44 @@
+﻿@using WebsiteVatlieuXayDung.Models
+@model NGUOIDUNG
+
+@{
+    ViewBag.Title = "XacNhanHang";
+    Layout = "~/Views/Shared/LayoutWeb.cshtml";
+    GioHang g = (GioHang)Session["gh"];
+}
+
+<div class="row">
+    <div class="col-3"></div>
+    <div class="col-6 mt-2 mb-2">
+        <form action="/Home/XuLyDH" method="post" class="border pl-3 pt-3 pr-4">
+            THÔNG TIN KHÁCH HÀNG
+
+            <div class="row mt-2">
+                <div class="col-6 form-outline">
+
+                    <input type="text" class="form-control" value="@Model.TENKH" />
+                </div>
+                <div class="col-6 form-outline">
+                    <input type="text" class="form-control" value="@Model.SDT" />
+                </div>
+            </div>
+
+            <div class="row mt-2">
+                <div class="col-6 form-outline">
+                    <label class="form-label text-danger">Tổng tiền</label>
+                    <input class="form-control" type="number" value="@g.tongTien()" disabled />
+                </div>
+                <div class="col-6 form-outline">
+                    <label class="form-label text-danger">Tổng số lượng</label>
+                    <input class="form-control" type="number" value="@g.soLuongSP()" disabled />
+                </div>
+            </div>
+
+            <div class="form-outline mb-4 mt-3">
+                <input type="text" placeholder="Địa chỉ giao hàng" class="form-control mt-3" name="DIACHIGIAOHANG" />
+                <input value="ĐẶT HÀNG" type="submit" class="btn btn-danger mt-3 text-white w-100 font-weight-bold" />
+            </div>
+        </form>
+    </div>
+    <div class="col-3"></div>
+</div>

@@ -1,0 +1,38 @@
+﻿@model IEnumerable<Thao_DangNgoc_2001206904_BTVNTuan8.Models.tbl_Deparment>
+
+@{
+    ViewBag.Title = "DanhMucPhongBan";
+}
+<link href="~/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+<h2 class="text-center text-primary">BẢNG DEPARMENT</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table-bordered table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.DeptId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.DeptId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.ActionLink("Update", "Update", new { id = item.DeptId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.DeptId, name = item.Name })
+        </td>
+    </tr>
+}
+
+</table>

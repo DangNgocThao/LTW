@@ -1,0 +1,31 @@
+﻿@model WebsiteVatlieuXayDung.Models.LOAIHANG
+
+@{
+    ViewBag.Title = "XoaLoai";
+    Layout = "~/Views/Shared/LayoutWeb.cshtml";
+}
+
+<h2 class="text-center">Xóa Loại</h2>
+
+<h3 class="pl-5">Bạn có chắc chắn muốn xóa loại hàng này không?</h3>
+<div class="pl-5 pr-5">
+    <h4>LOẠI HÀNG</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Tên loại
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TENLH)
+        </dd>
+
+    </dl>
+
+    <div class="form-actions no-color text-center">
+        <form action="/Home/XuLyXoaLoai/@Model.MALH" method="post">
+            <input type="submit" value="Xóa" class="btn btn-danger" /> |
+            @Html.ActionLink("Trở Lại Trang Danh Sách Loại", "DSLoai")
+        </form>
+    </div>
+</div>

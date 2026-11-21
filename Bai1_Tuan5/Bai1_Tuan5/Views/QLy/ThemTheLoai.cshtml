@@ -1,0 +1,38 @@
+﻿@{
+    ViewBag.Title = "ThemTheLoai";
+    Layout = "~/Views/Shared/LayoutQuanLy.cshtml";
+}
+
+<h2>Thêm Thể Loại</h2>
+<form action="/QLy/XLThem" method="post">
+    <table class="table">
+        <tr>
+            <td colspan="2" class="h3 bg-danger text-center">
+                THÊM LOẠI ĐIỆN THOẠI MỚI
+            </td>
+        </tr>
+        <tr>
+            <td class="col-1">
+                Mã Loại
+            </td>
+            <td>
+                <input type="text" name="maloai" class="form-control" placeholder="Giá trị Mã loại tự tăng, yc kg nhập!" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Tên Loại
+            </td>
+            <td>
+                <input type="text" name="tenloai" class="form-control" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+            </td>
+            <td>
+                <input type="submit" value="Thêm mới" />
+            </td>
+        </tr>
+    </table>
+</form>

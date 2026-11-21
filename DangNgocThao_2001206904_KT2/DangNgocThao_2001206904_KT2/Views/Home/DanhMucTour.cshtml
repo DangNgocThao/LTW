@@ -1,0 +1,13 @@
+﻿@model List<DangNgocThao_2001206904_KT2.Models.Danhmuc>
+
+<ul class="nav flex-column text-center">
+    <li class="border bg-warning pt-2 pb-2">
+        DANH MỤC TOUR
+    </li>
+    @foreach (var item in Model)
+    {
+        <li class="nav-item border">
+            <a href="/Home/dsTheoDM/@item.MaDM" class="nav-link">@item.TenDM</a>
+        </li>
+    }
+</ul>

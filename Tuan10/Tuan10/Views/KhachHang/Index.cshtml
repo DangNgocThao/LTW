@@ -1,0 +1,36 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/KhungTrang.cshtml";
+}
+
+@helper Truncate(string input, int lenght)
+{
+    {
+        if (input.Length < lenght)
+        {
+            @input
+        }
+        else
+        {
+            @input.Substring(0, lenght)<text>...</text>
+        }
+    }
+}
+
+@using Tuan10.Models;
+@model List<Sach>
+
+<div class="row product-group" >
+    @foreach (var item in Model)
+    {
+        <div class="col-4">
+            <div class="card card-group" >
+                <img src="/HinhAnhSP/@item.AnhBia" class="w-100 card-img-top" />
+                <div class="card-body">
+                    <p class="card-title">@Truncate(item.TenSach, 47)</p>
+                    <p class="text-center"><a href="/KhachHang/XemChiTiet/@item.MaSach">Xem chi tiết</a></p>
+                </div>
+            </div>
+        </div>
+    }
+</div>

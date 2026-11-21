@@ -1,0 +1,74 @@
+﻿@model DangNgocThao_2001206904.Models.NongSan
+
+@{
+    ViewBag.Title = "ThemSP";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+
+<h2 class="text-center">Thêm Sản Phẩm</h2>
+
+<form action="/Home/ThemSP" method="post" enctype="multipart/form-data">
+
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>Nông Sản</h4>
+        <hr>
+
+        <div class="form-group">
+            <label class="control-label" for="idSP">ID Sản Phẩm</label>
+            <input class="form-control text-box single-line" id="idSP" name="idSP" type="text" value="">
+        </div>
+
+        <div class="form-group">
+            <label class="control-label" for="TenSP">Tên Sản Phẩm</label>
+            <input class="form-control text-box single-line" id="TenSP" name="TenSP" type="text" value="">
+        </div>
+
+        <div class="form-group">
+            <label class="control-label" for="DonGia">Đơn Giá</label>
+            <input class="form-control text-box single-line" data-val="true" data-val-number="The field DonGia must be a number." data-val-required="The DonGia field is required." id="DonGia" name="DonGia" type="text" value="">
+        </div>
+
+        <div class="form-group">
+            <label class="control-label" for="HinhDaiDien">Hình Đại Diện</label>
+            <input class="form-control text-box single-line" id="HinhDaiDien" name="fileupload" type="file" value="">@ViewBag.ThongBao
+        </div>
+
+        <div class="form-group">
+            <label class="control-label" for="DSHinh">Danh Sách Hình</label>
+            <input class="form-control text-box single-line" id="DSHinh" name="DSHinh" type="text" value="">
+        </div>
+
+        <div class="form-group">
+            <label class="control-label" for="MienPhiGiaoHang">Miễn Phí Giao Hàng</label>
+            <select class="form-control list-box tri-state" id="MienPhiGiaoHang" name="MienPhiGiaoHang">
+                <option value="true">True</option>
+                <option value="false">False</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label" for="NhaSanXuat">Nhà Sản Xuất</label>
+            <input class="form-control text-box single-line" id="NhaSanXuat" name="NhaSanXuat" type="text" value="">
+        </div>
+
+        <div class="form-group">
+            <label class="control-label" for="MoTa">Mô Tả</label>
+            <input class="form-control text-box single-line" id="MoTa" name="MoTa" type="text" value="">
+        </div>
+
+        <div class="form-group">
+            <label class="control-label" for="MaLoaiSP">Loại Sản Phẩm</label>
+            @Html.DropDownList("MaLoai", (IEnumerable<SelectListItem>)ViewBag.MaLoai, new { @class = "form-control text-box single-line" })
+        </div>
+
+        <div class="form-group text-center">
+            <input type="submit" value="Thêm" class="btn btn-default">
+        </div>
+    </div>
+</form>
+
+    <div>
+        @Html.ActionLink("Back to List", "Index")
+    </div>

@@ -1,0 +1,39 @@
+﻿@{
+    ViewBag.Title = "SanPhamTheoLoai";
+    Layout = "~/Views/Shared/LayoutQuanLy.cshtml";
+}
+
+@using Bai1_Tuan5.Models;
+@model List<SanPham>
+
+<h2 class="text-center">Sản Phẩm Theo Loại</h2>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-4">
+            @Html.Action("DMTheLoai")
+        </div>
+        <div class="col-8">
+            <table class="table table-bordered">
+                <tr class="thead-dark">
+                    <th>Mã Sản Phẩm</th>
+                    <th>Tên Sản Phẩm</th>
+                    <th>Đường dẫn</th>
+                    <th>Giá</th>
+                    <th>Mô Tả</th>
+                    <th>Mã loại</th>
+                </tr>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.masp</td>
+                        <td>@item.tensp</td>
+                        <td>@item.duongdan</td>
+                        <td>@item.gia</td>
+                        <td>@item.mota</td>
+                        <td>@item.maloai</td>
+                    </tr>
+                }
+            </table>
+        </div>
+    </div>
+</div>

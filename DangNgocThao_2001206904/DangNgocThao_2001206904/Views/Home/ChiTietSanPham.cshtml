@@ -1,0 +1,68 @@
+﻿@model DangNgocThao_2001206904.Models.NongSan
+
+@{
+    ViewBag.Title = "ChiTietSanPham";
+    Layout = "~/Views/Shared/Layout.cshtml";
+    string[] s = Model.DSHinh.Split(',');
+}
+
+<div class="row">
+    <div class="col-6">
+        <img class="w-100" src="~/Hinhanh/@Model.HinhDaiDien" />
+        <div class="row">
+            @foreach (string item in s)
+            {
+                <div class="col-3">
+                    <img class="w-100" src="~/Hinhanh/@item.Trim()" />
+                </div>
+            }
+        </div>
+    </div>
+    <div class="col-6 mt-5">
+        <h3>@Model.TenSP <a class="text-danger">@Model.DonGia VNĐ</a></h3>
+        <ul class="mt-3">
+            <li><b>Nhà sản xuất: </b>@Model.NhaSanXuat</li>
+            <li><b>Mã sản phẩm: </b>@Model.idSP</li>
+            <li>
+                <h5><b>Giao hàng đi các tỉnh thành:</b></h5>
+                <ul>
+                    @foreach (var item in ViewBag.tinh)
+                    {
+                        <li class="text-primary"><a class="text-warning">@item.Tinh.TenTinh</a></li>
+                    }
+                </ul>
+            </li>
+        </ul>
+        <form action="/" method="post">
+            <div class="form-inline">
+                <input type="number" class="w-25 text-center"/>
+                <button type="submit" class="btn btn-dark ml-2">Mua hàng</button> 
+            </div>
+        </form>
+    </div>
+</div>
+<div class="row border-top border-success">
+    <div class="col">
+        <h5 class="text-success mt-3">Mô tả</h5>
+        @Model.MoTa
+    </div>
+</div>
+<div class="row border-top border-success">
+    <div class="col">
+        <h5 class="text-success mt-3">Sản Phẩm Liên Quan</h5>
+        <div class="row">
+            @foreach (var item in ViewBag.splq)
+            {
+                <div class="col-3">
+                    <div class="card">
+                        <a href="/Home/ChiTietSanPham/@item.idSP"><img class="w-100" src="~/Hinhanh/@item.HinhDaiDien" /></a>
+                        <div class="card-body">
+                            <p class="card-title">@item.TenSP</p>
+                            <p class="card-text text-danger">@item.DonGia VNĐ</p>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>

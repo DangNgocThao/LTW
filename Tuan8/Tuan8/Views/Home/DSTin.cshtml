@@ -1,0 +1,46 @@
+﻿@model IEnumerable<Tuan8.Models.Tintuc>
+
+@{
+    ViewBag.Title = "DSTin";
+}
+<link href="~/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+<h2>DSTin</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table table-bordered">
+    <tr>
+        <th>
+            Mã loại
+        </th>
+        <th>
+            Tiêu đề tin
+        </th>
+        <th>
+            Nội dung tin
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model)
+{
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.idLoai)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Tieudetin)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Noidungtin)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id = item.IDTin }) |
+            @Html.ActionLink("Details", "Details", new { id = item.IDTin }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.IDTin })
+        </td>
+    </tr>
+}
+
+</table>

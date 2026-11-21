@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+@using DangNgocThao_2001206904.Models;
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-9">
+                <a href="/Home/Index"><img class="w-25" src="~/Hinhanh/img_logo.png" /></a>
+            </div>
+            <div class="col-1 mt-2">
+                <a href="/Home/XemGioHang"><img class="w-75 float-right" src="~/Hinhanh/img_giohang.jpg" /></a>
+            </div>
+            <div class="col-2 mt-3">
+                <b>GIỎ HÀNG</b>
+                <p>
+                    @{
+                        if (Session["gh"] == null)
+                        {
+                            <span>0</span>
+                        }
+                        else
+                        {
+                            GioHang g = (GioHang)Session["gh"];
+                            <span>@g.DemSLMatHang()</span>
+                        }
+                    } sản phẩm -
+                    @{
+                        if (Session["gh"] == null)
+                        {
+                            <span>0</span>
+                        }
+                        else
+                        {
+                            GioHang g = (GioHang)Session["gh"];
+                            <span>@g.TongTien()</span>
+                        }
+                    } VNĐ
+                </p>
+            </div>
+        </div>
+        <div class="row bg-warning">
+            <div class="col-6">
+                <ul class="nav navbar">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="/Home/Index">Trang Chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="/Home/TimKiem">Tìm kiếm</a>
+                    </li>
+                    @if (Session["kh"] == null)
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="/Home/DangNhap">Đăng nhập</a>
+                        </li>
+                    }
+                    else
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="/Home/DangXuat">Đăng Xuất</a>
+                        </li>
+                    }
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">Lịch sử mua hàng</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col">
+                @Html.Action("dsDanhMuc", "Home")
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3">
+                <img class="w-100" src="~/Hinhanh/nongsansach.png" />
+            </div>
+            <div class="col-9">
+                @RenderBody()
+            </div>
+        </div>
+        <div class="row">
+            <img class="w-100" src="~/Hinhanh/img_footer.jpg" />
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+﻿@using Tuan10.Models;
+@model List<ChuDe>
+
+<ul class="nav flex-column border-left border-right">
+    <li class="nav-item bg-warning p-2 pl-5 text-white font-weight-bold">
+        CHỦ ĐỀ SÁCH
+    </li>
+    @foreach (var item in Model)
+    {
+        <li class="nav-item p-2 border-bottom pl-5">
+            <a href="/KhachHang/SachTheoCD/@item.MaChuDe">
+                @item.TenChuDe
+            </a>
+        </li>
+    }
+</ul>

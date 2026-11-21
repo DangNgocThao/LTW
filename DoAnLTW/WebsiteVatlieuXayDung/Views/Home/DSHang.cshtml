@@ -1,0 +1,57 @@
+﻿@model IEnumerable<WebsiteVatlieuXayDung.Models.HANGHOA>
+@using WebsiteVatlieuXayDung.Models;
+
+@{
+    ViewBag.Title = "DSHang";
+    Layout = "~/Views/Shared/LayoutWeb.cshtml";
+    NGUOIDUNG kh = (NGUOIDUNG)Session["kh"];
+}
+
+@helper Truncate(string input, int lenght)
+{
+    {
+        if (input.Length < lenght)
+        {
+            @input
+        }
+        else
+        {
+            @input.Substring(0, lenght)<text>...</text>
+        }
+    }
+}
+
+<div class="row product-group mt-4">
+    @foreach (var item in Model)
+    {
+        <div class="col-md-3 mb-4">
+            <div class="card card-group">
+                <a href="/Home/ChiTietSanPham/@item.MAHH"><img class=" w-75 ml-5 card-img-top" src="/Images/@item.HINHSANPHAM" height="250" /></a>
+                <div class="card-body">
+                    <h5 class="card-title" style="text-align:center">@item.TENHH</h5>
+                    <p class="text-center">@Truncate(item.MOTA, 30)</p>
+                    <div class="row">
+                        <div class="col text-center">
+                            <p class="text-center text-danger">@item.GIA VNĐ</p>
+                            @if (kh != null && kh.QUANLY == true)
+                            {
+                                <ul class="nav font-weight-bold nav-justified">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="/Home/XoaSanPham/@item.MAHH">Xóa</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="/Home/SuaSanPham/@item.MAHH">Sửa</a>
+                                    </li>
+                                </ul>
+                            }
+                            else
+                            {
+                                <a href="/Home/ThemMatHang/@item.MAHH" class="btn btn-block btn-danger w-100"><i class="fa-brands fa-opencart"></i> Chọn mua</a>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>

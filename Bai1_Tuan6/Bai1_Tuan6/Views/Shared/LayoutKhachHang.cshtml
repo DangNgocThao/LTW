@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            Tên logo, hình ảnh
+        </div>
+        <div class="row">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="/KhachHang/Index">Trang chủ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">Tìm kiếm</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">Đăng ký</a> / <a class="nav-link" href="">Đăng nhập</a>
+                </li>
+            </ul>
+        </div>
+        <div class="row">
+            <div class="row">
+
+            </div>
+            <div class="row">
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+</body>
+</html>

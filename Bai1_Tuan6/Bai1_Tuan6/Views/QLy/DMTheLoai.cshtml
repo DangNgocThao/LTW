@@ -1,0 +1,13 @@
+﻿@using Bai1_Tuan6.Models;
+@model List<Category>
+
+<ul class="nav flex-column">
+    @foreach (var item in Model)
+    {
+        <li>
+            <a class="nav-link" href="/QLy/SanPhamTheoLoai/@item.maloai">
+                @item.tenloai
+            </a>
+        </li>
+    }
+</ul>

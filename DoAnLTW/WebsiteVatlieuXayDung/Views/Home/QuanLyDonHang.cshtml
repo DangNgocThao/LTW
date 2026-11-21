@@ -1,0 +1,83 @@
+﻿@using WebsiteVatlieuXayDung.Models
+@{
+    ViewBag.Title = "QuanLyDonHang";
+    Layout = "~/Views/Shared/LayoutWeb.cshtml";
+}
+@model List<WebsiteVatlieuXayDung.Models.HOADONKH>
+@{ 
+    List<CHITIETHOADONKH> dsCTHD = ViewBag.dsCTHD;
+}
+@if (Model == null || Model.Count == 0)
+{
+<div class="col">
+    <h3 class="m-4 text-center">ĐƠN HÀNG TRỐNG</h3>
+</div>
+}
+else
+{ 
+<div class="container">
+    <div class="row mt-4 mb-4">
+        <div class="col">
+            <table class="table text-center">
+                <tr class="bg-dark text-white">
+                    <th class="">
+                        Mã hóa đơn
+                    </th>
+                    <th>
+                        Số điện thoại
+                    </th>
+                    <th>
+                        Tên khách hàng
+                    </th>
+                    <th>
+                        Ngày lập
+                    </th>
+                    <th>
+                        Tên sản phẩm
+                    </th>
+                    <th>
+                        Tổng số lượng mua
+                    </th>
+                    <th>
+                        Tổng tiền
+                    </th>
+                </tr>
+                @foreach (var item in Model)
+                {
+                    <tr class="bg-light">
+                        <td>
+                            @item.MAHD
+                        </td>
+                        <td>
+                            @item.SDT
+                        </td>
+                        <td>
+                            @item.NGUOIDUNG.TENKH
+                        </td>
+                        <td>
+                            @item.NGAY
+                        </td>
+                        <td class="text-left "style="padding-left:4%">
+                            <ul class="flex-column" style="">
+                                @foreach (var x in dsCTHD)
+                                {
+                                    if (x.MAHD == item.MAHD)
+                                    {
+                                        <li style="list-style-type:disc" class="text-dark"><span>@x.HANGHOA.TENHH</span></li>
+                                    }
+                                }
+                            </ul>
+                        </td>
+                        <td>
+                            @item.TONGSOLUONGSPDAMUA
+                        </td>
+                        <td>
+                            @item.TONGTIEN
+                        </td>
+                    </tr>
+                }
+            </table>
+        </div>
+    </div>
+</div>
+}

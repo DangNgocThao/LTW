@@ -1,0 +1,164 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="fontawesome-free-6.2.0-web/css/all.min.css" />
+    <link href="~/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/bootstrap/css/dinhDang.css" rel="stylesheet" />
+</head>
+@using WebsiteVatlieuXayDung.Models;
+@{
+    GioHang gh = (GioHang)Session["gh"];
+    NGUOIDUNG kh = (NGUOIDUNG)Session["kh"];
+}
+<body>
+    <div class="container-fluid">
+        <header>
+            <div class="row">
+                <div class="col-3">
+                    <a href="/Home/DSHang">
+                        <img width="300" height="100" src="/Images/logo.png" />
+                    </a>
+                </div>
+                <div class="col-4 ">
+                    <form class="form-inline mt-4" action="/Home/TimKiem" method="post">
+                        <input class="w-75  pl-3 border" style="height:50px" name="search" type="text" placeholder="Nhập sản phẩm cần tìm" />
+                        <button type="submit" style="height:50px; width:50px" class="border-left-0 border bg-danger btn">
+                            <i class="fa-solid fa-magnifying-glass text-white"></i>
+                        </button>
+                    </form>
+                </div>
+                <div class="col-3 mt-4">
+                    <form class="form-inline">
+                        <span class="border pl-3 w-75">
+                            <a>
+                                <b>Shopping cart</b>
+                                <br />
+                                @if (gh == null || gh.demSoLuongMatHang() == 0)
+                                {
+                                    <span class="text-danger">0 </span>
+                                }
+                                else
+                                { <span class="text-danger">@gh.demSoLuongMatHang() </span>}
+                                product -
+                                @if (gh == null || gh.demSoLuongMatHang() == 0)
+                                {
+                                    <span class="text-danger">0 đ</span>
+                                }
+                                else
+                                {
+                                    <span class="text-danger">@gh.tongTien() đ</span>
+                                }
+                            </a>
+                        </span>
+                        <a href="/Home/GioHang" style="height:50px; width:50px" class="border-left-0 border bg-danger btn pt-2"><i class="fa-solid fa-cart-shopping text-white mt-2"></i></a>
+                    </form>
+                </div>
+                <div class="col-2 mt-4">
+                    @if (kh == null)
+                    {
+                        <div class="mt-2"><a href="/Home/DangNhap" class="text-danger">Đăng nhập</a> / <a class="text-danger" href="/Home/DangKy">Đăng ký</a></div>
+                    }
+                    else
+                    {
+                        <a class="text-primary mt-2">Hello, @kh.TENKH</a><br />
+                        <a href="/Home/DangXuat" class="text-danger">Đăng xuất</a>
+                    }
+                </div>
+            </div>
+        </header>
+        <div class="row bg-danger">
+            <div class="container-fluid pl-4 pr-4">
+                @Html.Action("DanhMucLoai", "Home")
+            </div>
+        </div>
+        @if (kh != null && kh.QUANLY == true)
+        {
+            <div class="row bg-primary">
+                <div class="col">
+                    <ul class="nav nav-justified">
+                        <li class="nav-item">
+                            <a class="font-weight-bold btn text-white" href="/Home/ThemSanPham">Thêm sản phẩm</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="font-weight-bold btn text-white" href="/Home/DSLoai">Danh sách loại</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="font-weight-bold btn text-white" href="/Home/QuanLyDonHang">Quản lí đơn hàng</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="font-weight-bold btn text-white" href="/Home/QuanLyGiaoHang">Quản lí giao hàng</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        }
+        <div>
+            @RenderBody()
+        </div>
+        <footer>
+            <div class="row p-5 bg-dark">
+                <div class="col-xl-3 col-6">
+                    <h4 class="text-white">Về chúng tôi</h4>
+                    <ul class="p-0">
+                        <li><a class="text-white" href="#">Tư vấn mua hàng<br />1800 6969 45</a></li>
+                        <li><a class="text-white" href="#">Giới thiệu về Dora.vn</a></li>
+                        <li><a class="text-white" href="#">Điều kiện & điều khoản</a></li>
+                        <li><a class="text-white" href="#">Kinh doanh online từ Dora</a></li>
+                        <li><a class="text-white" href="#">Quy chế hoạt động</a></li>
+                    </ul>
+                </div>
+                <div class="col-xl-3 col-6">
+                    <h4 class="text-white">Chăm sóc khách hàng</h4>
+                    <ul class="p-0">
+                        <li><a class="text-white" href="#">Quy trình thanh toán</a></li>
+                        <li><a class="text-white" href="#">Chính sách vận chuyển</a></li>
+                        <li><a class="text-white" href="#">Chính sách bảo mật</a></li>
+                        <li><a class="text-white" href="#">Chính sách đổi trả</a></li>
+                        <li><a class="text-white" href="#">Giải quyết tranh chấp</a></li>
+                    </ul>
+                </div>
+                <div class="col-xl-3 col-6">
+                    <h4 class="text-white">Mua hàng trên Dora</h4>
+                    <ul class="p-0">
+                        <li><a class="text-white" href="#">Tất cả danh mục</a></li>
+                        <li><a class="text-white" href="#">Yêu cầu báo giá</a></li>
+                        <li><a class="text-white" href="#">Hỗ trợ người mua</a></li>
+                        <li><a class="text-white" href="#">Thanh toán an toàn</a></li>
+                        <li><a class="text-white" href="#">Đảm bảo giao dịch</a></li>
+                    </ul>
+                </div>
+                <div class="col-xl-3 col-6">
+                    <h4 class="text-white">Bán hàng trên Dora</h4>
+                    <ul class="p-0">
+                        <li><a class="text-white" href="#">Quy định đối với người bán</a></li>
+                        <li><a class="text-white" href="#">Thành viên là nhà cung cấp</a></li>
+                        <li><a class="text-white" href="#">Khách hàng thân thiết</a></li>
+                        <li><a class="text-white" href="#">Đăng kí mở gian hàng</a></li>
+                        <li><a class="text-white" href="#">Hỗ trợ người bán</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row justify-content-center bg-dark border-top border-secondary p-4">
+                <div class="col-xl-4">
+                    <p class="text-white font-weight-bold">(C) 2022 DORA.,HUFI</p>
+                    <p class="text-white">Trường CÔNG Nghiệp Thưc Phẩm. GPĐKKD: 1234567890 do sở KH & ĐT TP. Hồ Chí Minh cấp lần đầu ngày 20/11/2022.</p>
+                    <p class="text-white">Trụ sở chính: 140 Lê Trọng Tấn, Phường Sơn Kỳ, Quận Tân Phú, TP.HCM</p>
+                    <p>
+                        <a href="#"><img src="/Images/tb-bct.png" height="50" /></a>
+                        <a href="#"><img src="/Images/dk-bct.png" height="50" /></a>
+                    </p>
+                </div>
+                <div class="col-xl-4">
+                    <p class="text-white font-weight-bold">MIỀN NAM</p>
+                    <p class="text-white">VPGD: 50/20 Nhất Chi Mai, Q.Tân Bình, TP.HCM</p>
+                    <p class="text-white">Email: <a href="#">info@Dora.com</a></p>
+                    <p class="text-white">Điện thoại: 1800 6969 45</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://kit.fontawesome.com/2018241167.js" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+﻿@using DangNgocThao_2001206904_KT2.Models
+@{
+    ViewBag.Title = "lichSuGiaoDich";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+
+@model List<DatHang>
+@{ 
+    List<ChiTietDatHang> dsCT = ViewBag.dsCT;
+    }
+@if (ViewBag.error != ""||Model.Count==0)
+{
+    <h4>Qúy khách chưa đặt hàng</h4> 
+}
+else
+{
+     <div class="col p-2">
+         <h3>lịch sử giao dịch</h3>
+         <table class="table">
+             <tr class="thead-dark">
+                 <th>Hóa don</th>
+                 <th>số lượng</th>
+                 <th>tổng tiền</th>
+                 <th>tình trang</th>
+             </tr>
+             @foreach (var item in Model)
+             {
+                
+                 int sl = 0;
+                 double tt = 0;
+                    
+                <tr>
+                    <td>@item.MaDH</td>
+                    <td>
+                        @foreach (var x in dsCT)
+                        {
+                            if (item.MaDH == x.MaDH)
+                            {
+                                sl += int.Parse(x.SoLuong.ToString());
+                            } 
+                        }
+                        <a>@sl</a>
+                    </td>
+                    <td>
+                        @foreach (var t in dsCT)
+                        {
+                            if (item.MaDH == t.MaDH)
+                            {
+                                tt += double.Parse((t.SoLuong * t.Tour.GiaVe).ToString());
+                            } 
+                        }
+                        <a>@tt</a>
+                    </td>
+                    <td>
+                        @if (item.TinhTrang == 0&&item!=null)
+                        {
+                            <a class="text-danger">Đang xử lý</a> 
+                        }
+                        else
+                        {
+                            if (item.TinhTrang == 1 && item != null)
+                            {
+                                <a class="text-danger">Đã xử lý</a>  
+                            }
+                            else
+                            {
+                                <a class="text-danger">Xử lý thất bại</a>  
+                            }
+                        }
+                    </td>
+                </tr>
+                 
+             }
+         </table>
+     </div>
+}

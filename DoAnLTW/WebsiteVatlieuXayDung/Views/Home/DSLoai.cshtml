@@ -1,0 +1,42 @@
+﻿@model IEnumerable<WebsiteVatlieuXayDung.Models.LOAIHANG>
+
+@{
+    ViewBag.Title = "DSLoai";
+    Layout = "~/Views/Shared/LayoutWeb.cshtml";
+}
+
+<h2>Danh Sách Loại</h2>
+
+<p>
+    <b>@Html.ActionLink("Thêm mới", "ThemLoai")</b>
+</p>
+<table class="table">
+    <tr class="thead-dark">
+        <th>
+            Mã Loại
+        </th>
+        <th>
+            Tên Loại
+        </th>
+        <th>
+            Chức năng
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.MALH)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TENLH)
+        </td>
+        <td>
+            @Html.ActionLink("Chỉnh Sửa", "SuaLoai", new { id=item.MALH.Trim() }) |
+            @Html.ActionLink("Chi tiết", "DSHangTheoLoai", new { id=item.MALH.Trim() }) |
+            @Html.ActionLink("Xóa", "XoaLoai", new { id=item.MALH.Trim() })
+        </td>
+    </tr>
+}
+
+</table>

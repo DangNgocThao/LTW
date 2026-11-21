@@ -1,0 +1,60 @@
+﻿@using DangNgocThao_2001206904_KT2.Models
+@{
+    ViewBag.Title = "ThemHang";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+
+@model List<Danhmuc>
+<div class="col">
+    <form action="/Home/ThemHang" method="post" enctype="multipart/form-data">
+        <table class="table">
+            <tr>
+                <td>Tên tour</td>
+                <td><input class="form-control" type="text" name="TenTour" /></td>
+            </tr>
+            <tr>
+                <td>Ngày đi</td>
+                <td><input class="form-control" type="date" name="NgayDi" /></td>
+            </tr>
+            <tr>
+                <td>Giá vé</td>
+                <td><input class="form-control" type="number" name="GiaVe" /></td>
+            </tr>
+            <tr>
+                <td>Nơi khởi hành</td>
+                <td><input class="form-control" type="text" name="NoiKhoiHanh" /></td>
+            </tr>
+            <tr>
+                <td>Chương trình tour</td>
+                <td><input class="form-control" type="number" name="ChuongTrinhTour" /></td>
+            </tr>
+            <tr>
+                <td>Nơi tham quan</td>
+                <td><input class="form-control" type="text" name="NoiThamQuan" /></td>
+            </tr>
+            <tr>
+                <td>Danh mục</td>
+                <td>
+                    <select name="MaDM" class="form-control">
+                        @foreach (var item in Model)
+                        {
+                            <option value="@item.MaDM">@item.TenDM</option>
+                        }
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Hình</td>
+                <td><input class="form-control" type="file" name="file1" /></td>
+            </tr>
+             <tr>
+                <td>Danh Sách hình</td>
+                <td><input class="form-control" type="file" name="file2" /></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button class="btn btn-dark p-2" type="submit">Lưu</button></td>
+            </tr>
+        </table>
+    </form>
+</div>

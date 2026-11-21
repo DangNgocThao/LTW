@@ -1,0 +1,38 @@
+﻿
+@{
+    ViewBag.Title = "DangKy";
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+}
+
+<div class="row mt-5">
+    <div class="col text-center">
+        <h5>ĐĂNG KÝ TÀI KHOẢN</h5>
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+        <p class="ps-2 mt-2">Tên khách hàng</p>
+        <input placeholder="Enter your name" class="w-100 btn btn-outline-dark text-start" type="text" />
+        <p class="ps-2 mt-2">Địa chỉ Email</p>
+        <input placeholder="Enter your email Address" class="w-100 btn btn-outline-dark text-start" type="text" />
+        <p class="ps-2 mt-2">Password</p>
+        <input class="w-100 btn btn-outline-dark" type="text" />
+        <p class="ps-2 mt-2">Giới tính</p>
+        <div class="ps-5">
+            <input type="radio" name="ck" id="ck1" class="ms-5">
+            <label for="ck1" class="ps-1 pe-5">Nam</label>
+            <input type="radio" name="ck" id="ck2" class="ms-5">
+            <label for="ck2" class="ps-1 pe-5">Nữ</label>
+            <input type="radio" name="ck" id="ck3" class="ms-5">
+            <label for="ck3" class="ps-1">Khác</label>
+        </div>
+        <p class="ps-2 mt-2">Nghề nghiệp</p>
+        <select class="btn btn-outline-dark w-100 text-start ps-2">
+            <option>Giáo viên</option>
+        </select>
+        <div class="text-center mt-2">
+            <button class="btn btn-primary">ĐĂNG KÝ</button>
+        </div>
+    </div>
+</div>
+

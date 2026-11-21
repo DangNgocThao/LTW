@@ -1,0 +1,28 @@
+﻿@{
+    ViewBag.Title = "DSTheLoaiTin";
+}
+<link href="~/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+@using Tuan8.Models;
+@model List<Theloaitin>
+
+<h2 class="text-center">Danh Sách Thể Loại Tin</h2>
+<a href="/Home/ThemMoi">Thêm Mới</a> | <a href="/Home/DSTin">Danh sách tin</a>
+<table class="table table-bordered">
+    <tr class="thead-light">
+        <th>ID</th>
+        <th>Tên thể loại</th>
+        <th></th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.IDLoai</td>
+            <td>@item.Tentheloai</td>
+            <td>
+                @Html.ActionLink("Sửa", "Edit", new { id = item.IDLoai }) |
+                @Html.ActionLink("Chi tiết", "Details", new { id = item.IDLoai }) |
+                @Html.ActionLink("Xóa", "Delete", new { id = item.IDLoai })
+            </td>
+        </tr>
+    }
+</table>

@@ -1,0 +1,80 @@
+﻿@using DangNgocThao_2001206904.Models;
+@model List<Item>
+@{
+    ViewBag.Title = "XemGioHang";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+
+<div class="row">
+    <div class="bg-light col-12">
+        <a href="/Home/Index">< Mua thêm sản phẩm khác</a>
+        <a class="float-right">Giỏ hàng</a>
+    </div>
+    <div class="col-12">
+        @if (Model.Count == 0)
+        {
+            <h2 class="text-center">Không có sản phẩm nào trong giỏ hàng!</h2>
+        }
+        else
+        {
+    <table class="table">
+        @foreach (var item in Model)
+        {
+            <form action="/Home/updateSL/@item.IdSP" method="post">
+            <tr>
+                <td class="w-25">
+                    <img class="w-50" src="~/Hinhanh/@item.Hinh" />
+                </td>
+                <td>
+                    <b>@item.TenSP</b>
+                </td>
+                <td class="text-danger">
+                    @item.DonGia
+                </td>
+                <td>
+                    <b>x</b>
+                </td>
+                <td>
+                    <input type="number" name="txtSoLg" value="@item.SoLuongMua" class="form-control" min="1"/>
+                </td>
+                <td>
+                    <b>=</b>
+                </td>
+                <td class="text-danger">
+                    @(item.DonGia * item.SoLuongMua)
+                </td>
+                <td>
+                    <a href="/Home/XoaGioHang/@item.IdSP" class="text-dark">Xóa</a>
+                </td>
+                <td>
+                    <input style="cursor:pointer" type="submit" class="text-dark border-0 bg-white" value="Lưu" />
+                </td>
+            </tr>
+            </form>
+        }
+        <tr>
+            <td class="w-25" colspan="6">
+                Tạm tính(
+                @{
+                    GioHang g = (GioHang)Session["gh"];
+                    <span>@g.DemSLMatHang()</span>
+                }
+                sản phẩm):
+            </td>
+            <td colspan="3">
+                @g.TongTien() đ
+            </td>
+        </tr>
+        <tr style="border-top:none">
+            <td class="w-25 font-weight-bold" style="border-top:none" colspan="6">
+                Tổng tiền:
+            </td>
+            <td class="text-danger" style="border-top:none" colspan="3">
+                @g.TongTien() đ
+            </td>
+        </tr>
+    </table>
+            <p class="text-center"><a href="/Home/XacNhanDH" class="btn btn-warning font-weight-bold">Tiếp tục</a></p>            
+        }
+    </div>
+</div>

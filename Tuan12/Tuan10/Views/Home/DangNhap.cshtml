@@ -1,0 +1,11 @@
+﻿@{
+    ViewBag.Title = "DangNhap";
+    Layout = "~/Views/Shared/LayoutQuanLy.cshtml";
+}
+
+<h2>Đăng Nhập</h2>
+<form action="/Home/XLDangNhap" method="post">
+    <input type="text" name="txtName" placeholder="Tên khách hàng"/><br />
+    <input type="password" name="txtPass" placeholder="Mật khẩu" /><br />
+    <p><input type="submit" value="Đăng nhập"/></p>
+</form>

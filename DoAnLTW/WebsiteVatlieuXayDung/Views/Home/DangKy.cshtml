@@ -1,0 +1,49 @@
+﻿
+@{
+    ViewBag.Title = "DangKy";
+    Layout = "~/Views/Shared/LayoutWeb.cshtml";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-3"></div>
+        <div class="col-6 pt-4 pr-4 pl-4 bg-light">
+            <form action="/Home/DangKy" method="post" enctype="multipart/form-data">
+                <h2 class="text-center">Đăng ký</h2>
+                <p class="text-center">Tạo tài khoản chỉ trong một vài phút.</p>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" name="HO" placeholder="Họ" />
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" name="TENKH" placeholder="Tên" />
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="DIACHI" class="form-control" placeholder="Địa chỉ" />
+                </div>
+                <div class="form-group">
+                    <input type="text" name="SDT" class="form-control" placeholder="Số điện thoại" />
+                </div>
+                <div class="form-group">
+                    <input type="password" name="MATKHAU" class="form-control" placeholder="Mật khẩu" />
+                </div>
+                <div class="form-group">
+                    <input type="password" name="confirm_pwd" class="form-control" placeholder="Xác nhân lại mật khẩu" />
+                </div>
+                <div class="form-group">
+                    <input type="checkbox" name="dongy" />
+                    <label>Tôi đồng ý với <a href="#">Các điều khoản dịch vụ</a> và <a href="#">Chính sách bảo mật</a></label>
+                </div>
+                <input type="submit" class="btn btn-success btn-block mb-4" value="Đăng ký" name="" />
+            </form>
+            <p class="text-center text-danger">@ViewBag.error</p>
+        </div>
+        <div class="col-3"></div>
+    </div>
+</div>
+
+
+

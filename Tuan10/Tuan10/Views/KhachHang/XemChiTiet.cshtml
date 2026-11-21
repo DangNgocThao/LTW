@@ -1,0 +1,31 @@
+﻿@model Tuan10.Models.Sach
+@using Tuan10.Models;
+
+@{
+    ViewBag.Title = "XemChiTiet";
+    Layout = "~/Views/Shared/KhungTrang.cshtml";
+    List<ThamGia> ds = ViewBag.ThamGia;
+}
+
+<h2 class="text-center">CHI TIẾT SẢN PHẨM</h2>
+<div class="row">
+    <div class="col-3">
+        <img src="/HinhAnhSP/@Model.AnhBia" class="w-100" />
+    </div>
+    <div class="col-9">
+        <p class="text-danger">Tên sách: @Model.TenSach</p>
+        <p><b>Mô tả: </b>@Model.MoTa</p>
+        <p>Giá bán: <a class="text-danger">@Model.GiaBan VNĐ</a></p>
+        <p>Các tác giả</p>
+        <ul>
+            @foreach (var item in ds)
+            {
+                <li>@item.TacGia.TenTacGia - @item.VaiTro</li>
+            }
+        </ul>
+        <button class="btn btn-danger float-right mr-5">Đặt mua</button>
+    </div>
+</div>
+<p>
+    @Html.ActionLink("Back to List", "Index")
+</p>
